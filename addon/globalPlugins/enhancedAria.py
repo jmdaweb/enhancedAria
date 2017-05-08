@@ -36,6 +36,7 @@ def applyConfig():
 		conf_aria['region']=orig_roles['region']
 		conf_html['section']='region'
 	if config.conf['aria']['reportArticle']==True:
+		#TRANSLATORS: An article element inside a document
 		conf_aria['article']=_(u"article")
 		conf_html['article']='article'
 	aria.landmarkRoles=conf_aria
@@ -50,6 +51,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		#apply saved configuration
 		applyConfig()
 		self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
+		#TRANSLATORS: The configuration option in NVDA Preferences menu
 		self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _(u"Enhanced aria settings..."), _(u"Change enhanced Aria settings"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEnhancedAriaMenu, self.enhancedAriaSettingsItem)
 
@@ -76,32 +78,42 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame._popupSettingsDialog(enhancedAriaSettings)
 
 class enhancedAriaSettings(settingsDialogs.SettingsDialog):
+	#TRANSLATORS: Settings dialog title
 	title=_(u"Enhanced Aria settings")
 	def makeSettings(self, sizer):
+		#TRANSLATORS: report banners checkbox
 		self.bannerenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report banners"))
 		self.bannerenabled.SetValue(config.conf['aria']['reportBanner'])
 		sizer.Add(self.bannerenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report main content checkbox
 		self.mainenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report main content"))
 		self.mainenabled.SetValue(config.conf['aria']['reportMain'])
 		sizer.Add(self.mainenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report search forms checkbox
 		self.searchenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report search forms"))
 		self.searchenabled.SetValue(config.conf['aria']['reportSearch'])
 		sizer.Add(self.searchenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report forms with form role checkbox
 		self.formenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report forms with form role"))
 		self.formenabled.SetValue(config.conf['aria']['reportForm'])
 		sizer.Add(self.formenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report navigation areas checkbox
 		self.navigationenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report navigation areas"))
 		self.navigationenabled.SetValue(config.conf['aria']['reportNavigation'])
 		sizer.Add(self.navigationenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report complementary content checkbox
 		self.complementaryenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report complementary content"))
 		self.complementaryenabled.SetValue(config.conf['aria']['reportComplementary'])
 		sizer.Add(self.complementaryenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report content info checkbox
 		self.contentinfoenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report content info areas"))
 		self.contentinfoenabled.SetValue(config.conf['aria']['reportContentinfo'])
 		sizer.Add(self.contentinfoenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report articles checkbox
 		self.articleenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report articles"))
 		self.articleenabled.SetValue(config.conf['aria']['reportArticle'])
 		sizer.Add(self.articleenabled,border=10,flag=wx.BOTTOM)
+		#TRANSLATORS: report other labelled regions checkbox
 		self.regionenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report other labelled regions"))
 		self.regionenabled.SetValue(config.conf['aria']['reportRegion'])
 		sizer.Add(self.regionenabled,border=10,flag=wx.BOTTOM)
