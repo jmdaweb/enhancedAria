@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enhancedAria 1.0\n"
+"Project-Id-Version: enhancedAria 1.0.1\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2017-05-08 11:31+0200\n"
-"PO-Revision-Date: 2017-05-08 11:32+0200\n"
+"POT-Creation-Date: 2017-05-08 13:43+0200\n"
+"PO-Revision-Date: 2017-05-08 13:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: Jose Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language: es\n"
@@ -19,55 +19,67 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
-#: addon\globalPlugins\enhancedAria.py:39
+#. TRANSLATORS: An article element inside a document
+#: addon\globalPlugins\enhancedAria.py:40
 msgid "article"
 msgstr "artículo"
 
-#: addon\globalPlugins\enhancedAria.py:53
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+#: addon\globalPlugins\enhancedAria.py:55
 msgid "Enhanced aria settings..."
 msgstr "Ajustes de aria mejorada..."
 
-#: addon\globalPlugins\enhancedAria.py:53
+#: addon\globalPlugins\enhancedAria.py:55
 msgid "Change enhanced Aria settings"
 msgstr "Cambiar los ajustes de aria mejorada"
 
-#: addon\globalPlugins\enhancedAria.py:79
+#. TRANSLATORS: Settings dialog title
+#: addon\globalPlugins\enhancedAria.py:82
 msgid "Enhanced Aria settings"
 msgstr "Ajustes de aria mejorada"
 
-#: addon\globalPlugins\enhancedAria.py:81
+#. TRANSLATORS: report banners checkbox
+#: addon\globalPlugins\enhancedAria.py:85
 msgid "Report banners"
 msgstr "Indicar títulos (báners)"
 
-#: addon\globalPlugins\enhancedAria.py:84
+#. TRANSLATORS: report main content checkbox
+#: addon\globalPlugins\enhancedAria.py:89
 msgid "Report main content"
 msgstr "Indicar contenido principal"
 
-#: addon\globalPlugins\enhancedAria.py:87
+#. TRANSLATORS: report search forms checkbox
+#: addon\globalPlugins\enhancedAria.py:93
 msgid "Report search forms"
 msgstr "Indicar formularios de búsqueda"
 
-#: addon\globalPlugins\enhancedAria.py:90
+#. TRANSLATORS: report forms with form role checkbox
+#: addon\globalPlugins\enhancedAria.py:97
 msgid "Report forms with form role"
 msgstr "Indicar formularios con el rol de formulario"
 
-#: addon\globalPlugins\enhancedAria.py:93
+#. TRANSLATORS: report navigation areas checkbox
+#: addon\globalPlugins\enhancedAria.py:101
 msgid "Report navigation areas"
 msgstr "Indicar áreas de navegación"
 
-#: addon\globalPlugins\enhancedAria.py:96
+#. TRANSLATORS: report complementary content checkbox
+#: addon\globalPlugins\enhancedAria.py:105
 msgid "Report complementary content"
 msgstr "Indicar contenido complementario"
 
-#: addon\globalPlugins\enhancedAria.py:99
+#. TRANSLATORS: report content info checkbox
+#: addon\globalPlugins\enhancedAria.py:109
 msgid "Report content info areas"
 msgstr "Indicar áreas de información de contenido"
 
-#: addon\globalPlugins\enhancedAria.py:102
+#. TRANSLATORS: report articles checkbox
+#: addon\globalPlugins\enhancedAria.py:113
 msgid "Report articles"
 msgstr "Indicar artículos"
 
-#: addon\globalPlugins\enhancedAria.py:105
+#. TRANSLATORS: report other labelled regions checkbox
+#: addon\globalPlugins\enhancedAria.py:117
 msgid "Report other labelled regions"
 msgstr "Indicar otras regiones etiquetadas"
 
