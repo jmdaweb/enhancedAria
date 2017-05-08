@@ -12,11 +12,11 @@ def onInstall():
 		"reportRegion":True
 	}
 	config.conf['aria']=defaults
-	config.save()
+	config.conf.save()
 def onUninstall():
 	for k, v in config.conf._profileCache.iteritems():
 		try:
 			del config.conf._profileCache[k]['aria']
 		except:
 			pass
-	config.save()
+	config.conf.save()
