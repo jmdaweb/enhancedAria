@@ -1,5 +1,5 @@
 # Enhanced Aria
-Version 1.0.1
+Version 1.1
 
 ## Introduction
 
@@ -16,3 +16,9 @@ You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria
 ## Contact info
 
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
+
+## Changelog
+
+### Version 1.1
+
+* Fixed issues which prevented opening the addon settings dialog when reverting to NVDA saved configuration
