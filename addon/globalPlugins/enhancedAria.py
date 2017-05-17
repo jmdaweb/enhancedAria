@@ -9,6 +9,36 @@ import gui
 from gui import settingsDialogs
 import wx
 
+def createConfig():
+	try:
+		test=config.conf['aria']
+		return #the configuration exists, so we haven't to initialize it
+	except KeyError:
+		pass #let's create the default configuration
+	defaults = {
+		"reportBanner":True,
+		"reportMain":True,
+		"reportContentinfo":True,
+		"reportNavigation":True,
+		"reportComplementary":True,
+		"reportSearch":True,
+		"reportForm":True,
+		"reportArticle":False,
+		"reportRegion":True
+	}
+	config.conf['aria']=defaults
+
+def initConfig():
+	config.conf['aria']['reportBanner']=config.conf['aria']['reportBanner']==u'True'
+	config.conf['aria']['reportMain']=config.conf['aria']['reportMain']==u'True'
+	config.conf['aria']['reportNavigation']=config.conf['aria']['reportNavigation']==u'True'
+	config.conf['aria']['reportSearch']=config.conf['aria']['reportSearch']==u'True'
+	config.conf['aria']['reportForm']=config.conf['aria']['reportForm']==u'True'
+	config.conf['aria']['reportComplementary']=config.conf['aria']['reportComplementary']==u'True'
+	config.conf['aria']['reportRegion']=config.conf['aria']['reportRegion']==u'True'
+	config.conf['aria']['reportArticle']=config.conf['aria']['reportArticle']==u'True'
+	config.conf['aria']['reportContentinfo']=config.conf['aria']['reportContentinfo']==u'True'
+
 def applyConfig():
 	conf_aria={}
 	conf_html={}
@@ -45,26 +75,16 @@ def applyConfig():
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
+		createConfig()
 		if config.conf['aria']['reportMain'] not in [True, False]:
 			#convert configuration values into booleans
-			self.initConfig()
+			initConfig()
 		#apply saved configuration
 		applyConfig()
 		self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
 		#TRANSLATORS: The configuration option in NVDA Preferences menu
 		self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _(u"Enhanced aria settings..."), _(u"Change enhanced Aria settings"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEnhancedAriaMenu, self.enhancedAriaSettingsItem)
-
-	def initConfig(self):
-		config.conf['aria']['reportBanner']=config.conf['aria']['reportBanner']==u'True'
-		config.conf['aria']['reportMain']=config.conf['aria']['reportMain']==u'True'
-		config.conf['aria']['reportNavigation']=config.conf['aria']['reportNavigation']==u'True'
-		config.conf['aria']['reportSearch']=config.conf['aria']['reportSearch']==u'True'
-		config.conf['aria']['reportForm']=config.conf['aria']['reportForm']==u'True'
-		config.conf['aria']['reportComplementary']=config.conf['aria']['reportComplementary']==u'True'
-		config.conf['aria']['reportRegion']=config.conf['aria']['reportRegion']==u'True'
-		config.conf['aria']['reportArticle']=config.conf['aria']['reportArticle']==u'True'
-		config.conf['aria']['reportContentinfo']=config.conf['aria']['reportContentinfo']==u'True'
 
 	def terminate(self):
 		try:
@@ -81,6 +101,10 @@ class enhancedAriaSettings(settingsDialogs.SettingsDialog):
 	#TRANSLATORS: Settings dialog title
 	title=_(u"Enhanced Aria settings")
 	def makeSettings(self, sizer):
+		createConfig()
+		if config.conf['aria']['reportMain'] not in [True, False]:
+			#convert configuration values into booleans
+			initConfig()
 		#TRANSLATORS: report banners checkbox
 		self.bannerenabled=wx.CheckBox(self, wx.NewId(), label=_(u"Report banners"))
 		self.bannerenabled.SetValue(config.conf['aria']['reportBanner'])
@@ -122,6 +146,7 @@ class enhancedAriaSettings(settingsDialogs.SettingsDialog):
 		self.bannerenabled.SetFocus()
 
 	def onOk(self, evt):
+		createConfig()
 		config.conf['aria']['reportBanner']=self.bannerenabled.GetValue()
 		config.conf['aria']['reportMain']=self.mainenabled.GetValue()
 		config.conf['aria']['reportSearch']=self.searchenabled.GetValue()
