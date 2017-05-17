@@ -11,7 +11,7 @@ import wx
 
 def createConfig():
 	try:
-		test=config.conf['aria']
+		test=config.conf['aria']['reportMain']
 		return #the configuration exists, so we haven't to initialize it
 	except KeyError:
 		pass #let's create the default configuration
