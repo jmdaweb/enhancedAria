@@ -1,5 +1,5 @@
 # Aria mejorada
-Versión 1.2
+Versión 1.3
 
 ## Introducción
 
