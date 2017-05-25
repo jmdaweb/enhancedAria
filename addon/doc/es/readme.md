@@ -19,6 +19,10 @@ Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres cont
 
 ## Registro de cambios
 
+### Versión 1.3
+
+* Se ha agregado una especificación de configobj para los ajustes del complemento
+
 ### Versión 1.2
 
 * Errores corregidos

@@ -19,6 +19,10 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 ## Changelog
 
+### Version 1.3
+
+* Added configobj specification for addon settings
+
 ### Version 1.2
 
 * Bugs fixed
