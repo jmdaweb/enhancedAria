@@ -26,6 +26,7 @@ It has support for extra aria landmarks which are not included by default in NVD
 
 
 import os.path
+from glob import glob
 
 # Define the python files that are the sources of your add-on.
 # You can use glob expressions here, they will be expanded.
@@ -34,4 +35,4 @@ pythonSources = ["addon/globalPlugins/*", "addon/*.py"]
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]
 
-excludedFiles=["doc/*/*.md"]
+excludedFiles=glob("addon/doc/*/*.md")+glob("addon/locale/*/LC_MESSAGES/*.po")+["doc\\en\\readme.md"]
