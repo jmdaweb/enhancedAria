@@ -14,7 +14,7 @@ import gui
 from gui import settingsDialogs
 try:
 	from gui import NVDASettingsDialog
-	from settingsDialogs import SettingsPanel
+	from gui.settingsDialogs import SettingsPanel
 except:
 	SettingsPanel=object # give the panel class something it can inherit from
 import wx
