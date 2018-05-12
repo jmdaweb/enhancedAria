@@ -14,8 +14,9 @@ import gui
 from gui import settingsDialogs
 try:
 	from gui import NVDASettingsDialog
+	from settingsDialogs import SettingsPanel
 except:
-	pass
+	SettingsPanel=object # give the panel class something it can inherit from
 import wx
 
 #TRANSLATORS: Settings dialog and/or panel title
@@ -158,7 +159,7 @@ class enhancedAriaSettings(settingsDialogs.SettingsDialog):
 		storeSettings(self)
 		super(enhancedAriaSettings, self).onOk(evt)
 
-class enhancedAriaPanel(settingsDialogs.SettingsPanel):
+class enhancedAriaPanel(SettingsPanel):
 	title=addonSettingsTitle
 
 	def makeSettings(self, sizer):
