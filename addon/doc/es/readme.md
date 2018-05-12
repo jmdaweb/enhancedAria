@@ -1,5 +1,6 @@
 # Aria mejorada
-Versión 1.3
+
+Versión 2.0
 
 ## Introducción
 
@@ -11,13 +12,17 @@ El complemento añade un punto de referencia extra que no viene incluido por def
 
 ## El diálogo de configuración
 
-Puedes activar o desactivar puntos de referencia yendo a NVDA, preferencias, Ajustes de Aria mejorada. El diálogo tiene una casilla de verificación por cada punto de referencia. Si desactivas un punto de referencia, no podrás saltar a él pulsando la letra d al explorar una página web, y NVDA no lo anunciará.
+Puedes activar o desactivar puntos de referencia yendo a NVDA, preferencias, Ajustes de Aria mejorada o desde la categoría correspondiente en el diálogo de opciones de NVDA. El diálogo tiene una casilla de verificación por cada punto de referencia. Si desactivas un punto de referencia, no podrás saltar a él pulsando la letra d al explorar una página web, y NVDA no lo anunciará.
 
 ## Información de contacto
 
-Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jmdaweb@hotmail.com, o abre un issue en GitHub en https://github.com/jmdaweb/enhancedAria
+Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jm.delicado@nvda.es, o abre una incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
+
+### Versión 2.0
+
+* Se ha añadido soporte para el nuevo diálogo multicategoría disponible en NVDA 2018.2 y versiones posteriores
 
 ### Versión 1.3
 

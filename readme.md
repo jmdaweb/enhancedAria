@@ -1,5 +1,6 @@
 # Enhanced Aria
-Version 1.3
+
+Version 2.0
 
 ## Introduction
 
@@ -11,13 +12,17 @@ The addon adds an extra landmark not included by default in NVDA, the article.
 
 ## The configuration dialog
 
-You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria Settings. The dialog has a checkbox for each landmark. If you disable a landmark, you won't be able to jump to it pressing the d key when browsing a webpage, and NVDA won't report it.
+You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria Settings or from the appropriate category in the NVDA options dialog. The dialog has a checkbox for each landmark. If you disable a landmark, you won't be able to jump to it pressing the d key when browsing a webpage, and NVDA won't report it.
 
 ## Contact info
 
-This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
+This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Changelog
+
+### Version 2.0
+
+* Added support for multi-category settings dialog available on NVDA 2018.2 and later
 
 ### Version 1.3
 
