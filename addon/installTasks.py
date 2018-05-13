@@ -5,7 +5,7 @@
 
 import config
 def onUninstall():
-	for k, v in config.conf._profileCache.iteritems():
+	for k, v in list(config.conf._profileCache.items()):
 		try:
 			del config.conf._profileCache[k]['aria']
 		except:

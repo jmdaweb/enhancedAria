@@ -63,7 +63,7 @@ def applyConfig():
 		conf_html['section']='region'
 	if config.conf['aria']['reportArticle']==True:
 		#TRANSLATORS: An article element inside a document
-		conf_aria['article']=_(u"article")
+		conf_aria['article']=_("article")
 		conf_html['article']='article'
 	aria.landmarkRoles=conf_aria
 	aria.htmlNodeNameToAriaLandmarkRoles=conf_html
@@ -71,39 +71,39 @@ def applyConfig():
 # Common functions for dialog and panel classes to create and retrieve settings
 def createSettings(obj, sizer):
 	#TRANSLATORS: report banners checkbox
-	obj.bannerenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report banners"))
+	obj.bannerenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report banners"))
 	obj.bannerenabled.SetValue(config.conf['aria']['reportBanner'])
 	sizer.Add(obj.bannerenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report main content checkbox
-	obj.mainenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report main content"))
+	obj.mainenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report main content"))
 	obj.mainenabled.SetValue(config.conf['aria']['reportMain'])
 	sizer.Add(obj.mainenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report search forms checkbox
-	obj.searchenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report search forms"))
+	obj.searchenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report search forms"))
 	obj.searchenabled.SetValue(config.conf['aria']['reportSearch'])
 	sizer.Add(obj.searchenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report forms with form role checkbox
-	obj.formenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report forms with form role"))
+	obj.formenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report forms with form role"))
 	obj.formenabled.SetValue(config.conf['aria']['reportForm'])
 	sizer.Add(obj.formenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report navigation areas checkbox
-	obj.navigationenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report navigation areas"))
+	obj.navigationenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report navigation areas"))
 	obj.navigationenabled.SetValue(config.conf['aria']['reportNavigation'])
 	sizer.Add(obj.navigationenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report complementary content checkbox
-	obj.complementaryenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report complementary content"))
+	obj.complementaryenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report complementary content"))
 	obj.complementaryenabled.SetValue(config.conf['aria']['reportComplementary'])
 	sizer.Add(obj.complementaryenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report content info checkbox
-	obj.contentinfoenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report content info areas"))
+	obj.contentinfoenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report content info areas"))
 	obj.contentinfoenabled.SetValue(config.conf['aria']['reportContentinfo'])
 	sizer.Add(obj.contentinfoenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report articles checkbox
-	obj.articleenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report articles"))
+	obj.articleenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report articles"))
 	obj.articleenabled.SetValue(config.conf['aria']['reportArticle'])
 	sizer.Add(obj.articleenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report other labelled regions checkbox
-	obj.regionenabled=wx.CheckBox(obj, wx.NewId(), label=_(u"Report other labelled regions"))
+	obj.regionenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report other labelled regions"))
 	obj.regionenabled.SetValue(config.conf['aria']['reportRegion'])
 	sizer.Add(obj.regionenabled,border=10,flag=wx.BOTTOM)
 
@@ -129,7 +129,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
 			#TRANSLATORS: The configuration option in NVDA Preferences menu
-			self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _(u"Enhanced aria settings..."), _(u"Change enhanced Aria settings"))
+			self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _("Enhanced aria settings..."), _("Change enhanced Aria settings"))
 			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEnhancedAriaMenu, self.enhancedAriaSettingsItem)
 
 	def terminate(self):
