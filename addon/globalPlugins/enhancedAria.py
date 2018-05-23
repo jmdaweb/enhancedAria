@@ -38,30 +38,30 @@ config.conf.spec['aria']=confspec
 def applyConfig():
 	conf_aria={}
 	conf_html={}
-	if config.conf['aria']['reportBanner']==True:
+	if config.conf['aria']['reportBanner']:
 		conf_aria['banner']=orig_roles['banner']
 		conf_html['header']='banner'
-	if config.conf['aria']['reportMain']==True:
+	if config.conf['aria']['reportMain']:
 		conf_aria['main']=orig_roles['main']
 		conf_html['main']='main'
-	if config.conf['aria']['reportNavigation']==True:
+	if config.conf['aria']['reportNavigation']:
 		conf_aria['navigation']=orig_roles['navigation']
 		conf_html['nav']='navigation'
-	if config.conf['aria']['reportContentinfo']==True:
+	if config.conf['aria']['reportContentinfo']:
 		conf_aria['contentinfo']=orig_roles['contentinfo']
 		conf_html['footer']='contentinfo'
-	if config.conf['aria']['reportSearch']==True:
+	if config.conf['aria']['reportSearch']:
 		conf_aria['search']=orig_roles['search']
-	if config.conf['aria']['reportForm']==True:
+	if config.conf['aria']['reportForm']:
 		conf_aria['form']=orig_roles['form']
 		conf_html['form']='form'
-	if config.conf['aria']['reportComplementary']==True:
+	if config.conf['aria']['reportComplementary']:
 		conf_aria['complementary']=orig_roles['complementary']
 		conf_html['aside']='complementary'
-	if config.conf['aria']['reportRegion']==True:
+	if config.conf['aria']['reportRegion']:
 		conf_aria['region']=orig_roles['region']
 		conf_html['section']='region'
-	if config.conf['aria']['reportArticle']==True:
+	if config.conf['aria']['reportArticle']:
 		#TRANSLATORS: An article element inside a document
 		conf_aria['article']=_("article")
 		conf_html['article']='article'
