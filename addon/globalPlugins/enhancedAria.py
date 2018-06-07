@@ -11,7 +11,7 @@ addonHandler.initTranslation()
 import globalPluginHandler
 import config
 import gui
-from gui import settingsDialogs
+from gui import settingsDialogs, guiHelper
 try:
 	from gui import NVDASettingsDialog
 	from gui.settingsDialogs import SettingsPanel
@@ -70,42 +70,34 @@ def applyConfig():
 
 # Common functions for dialog and panel classes to create and retrieve settings
 def createSettings(obj, sizer):
+	helper=guiHelper.BoxSizerHelper(obj, sizer=sizer)
 	#TRANSLATORS: report banners checkbox
-	obj.bannerenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report banners"))
+	obj.bannerenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report banners")))
 	obj.bannerenabled.SetValue(config.conf['aria']['reportBanner'])
-	sizer.Add(obj.bannerenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report main content checkbox
-	obj.mainenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report main content"))
+	obj.mainenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report main content")))
 	obj.mainenabled.SetValue(config.conf['aria']['reportMain'])
-	sizer.Add(obj.mainenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report search forms checkbox
-	obj.searchenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report search forms"))
+	obj.searchenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report search forms")))
 	obj.searchenabled.SetValue(config.conf['aria']['reportSearch'])
-	sizer.Add(obj.searchenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report forms with form role checkbox
-	obj.formenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report forms with form role"))
+	obj.formenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report forms with form role")))
 	obj.formenabled.SetValue(config.conf['aria']['reportForm'])
-	sizer.Add(obj.formenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report navigation areas checkbox
-	obj.navigationenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report navigation areas"))
+	obj.navigationenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report navigation areas")))
 	obj.navigationenabled.SetValue(config.conf['aria']['reportNavigation'])
-	sizer.Add(obj.navigationenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report complementary content checkbox
-	obj.complementaryenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report complementary content"))
+	obj.complementaryenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report complementary content")))
 	obj.complementaryenabled.SetValue(config.conf['aria']['reportComplementary'])
-	sizer.Add(obj.complementaryenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report content info checkbox
-	obj.contentinfoenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report content info areas"))
+	obj.contentinfoenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report content info areas")))
 	obj.contentinfoenabled.SetValue(config.conf['aria']['reportContentinfo'])
-	sizer.Add(obj.contentinfoenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report articles checkbox
-	obj.articleenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report articles"))
+	obj.articleenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report articles")))
 	obj.articleenabled.SetValue(config.conf['aria']['reportArticle'])
-	sizer.Add(obj.articleenabled,border=10,flag=wx.BOTTOM)
 	#TRANSLATORS: report other labelled regions checkbox
-	obj.regionenabled=wx.CheckBox(obj, wx.NewId(), label=_("Report other labelled regions"))
+	obj.regionenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report other labelled regions")))
 	obj.regionenabled.SetValue(config.conf['aria']['reportRegion'])
-	sizer.Add(obj.regionenabled,border=10,flag=wx.BOTTOM)
 
 def storeSettings(obj):
 	config.conf['aria']['reportBanner']=obj.bannerenabled.GetValue()
