@@ -23,6 +23,8 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 ### Version 2.0
 
 * Added support for multi-category settings dialog available on NVDA 2018.2 and later
+* Added Python 3 compatibility
+* Now guiHelper module is used to create the addon interface
 
 ### Version 1.3
 

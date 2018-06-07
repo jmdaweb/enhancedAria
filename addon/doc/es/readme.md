@@ -23,6 +23,8 @@ Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres cont
 ### Versión 2.0
 
 * Se ha añadido soporte para el nuevo diálogo multicategoría disponible en NVDA 2018.2 y versiones posteriores
+* Se ha añadido compatibilidad con Python 3
+* Ahora se usa el módulo guiHelper para crear la interfaz del complemento
 
 ### Versión 1.3
 
