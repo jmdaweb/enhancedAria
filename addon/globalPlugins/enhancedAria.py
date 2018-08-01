@@ -119,7 +119,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if hasattr(settingsDialogs, 'SettingsPanel'):
 			NVDASettingsDialog.categoryClasses.append(enhancedAriaPanel)
 		else:
-			self.prefsMenu = gui.mainFrame.sysTrayIcon.menu.GetMenuItems()[0].GetSubMenu()
+			self.prefsMenu = gui.mainFrame.sysTrayIcon.preferencesMenu
 			#TRANSLATORS: The configuration option in NVDA Preferences menu
 			self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _("Enhanced aria settings..."), _("Change enhanced Aria settings"))
 			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEnhancedAriaMenu, self.enhancedAriaSettingsItem)
