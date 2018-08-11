@@ -72,31 +72,31 @@ def applyConfig():
 def createSettings(obj, sizer):
 	helper=guiHelper.BoxSizerHelper(obj, sizer=sizer)
 	#TRANSLATORS: report banners checkbox
-	obj.bannerenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report banners")))
+	obj.bannerenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report banners")))
 	obj.bannerenabled.SetValue(config.conf['aria']['reportBanner'])
 	#TRANSLATORS: report main content checkbox
-	obj.mainenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report main content")))
+	obj.mainenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report main content")))
 	obj.mainenabled.SetValue(config.conf['aria']['reportMain'])
 	#TRANSLATORS: report search forms checkbox
-	obj.searchenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report search forms")))
+	obj.searchenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report search forms")))
 	obj.searchenabled.SetValue(config.conf['aria']['reportSearch'])
 	#TRANSLATORS: report forms with form role checkbox
-	obj.formenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report forms with form role")))
+	obj.formenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report forms with form role")))
 	obj.formenabled.SetValue(config.conf['aria']['reportForm'])
 	#TRANSLATORS: report navigation areas checkbox
-	obj.navigationenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report navigation areas")))
+	obj.navigationenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report navigation areas")))
 	obj.navigationenabled.SetValue(config.conf['aria']['reportNavigation'])
 	#TRANSLATORS: report complementary content checkbox
-	obj.complementaryenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report complementary content")))
+	obj.complementaryenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report complementary content")))
 	obj.complementaryenabled.SetValue(config.conf['aria']['reportComplementary'])
 	#TRANSLATORS: report content info checkbox
-	obj.contentinfoenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report content info areas")))
+	obj.contentinfoenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report content info areas")))
 	obj.contentinfoenabled.SetValue(config.conf['aria']['reportContentinfo'])
 	#TRANSLATORS: report articles checkbox
-	obj.articleenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report articles")))
+	obj.articleenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report articles")))
 	obj.articleenabled.SetValue(config.conf['aria']['reportArticle'])
 	#TRANSLATORS: report other labelled regions checkbox
-	obj.regionenabled=helper.addItem(wx.CheckBox(obj, wx.NewId(), label=_("Report other labelled regions")))
+	obj.regionenabled=helper.addItem(wx.CheckBox(obj, wx.ID_ANY, label=_("Report other labelled regions")))
 	obj.regionenabled.SetValue(config.conf['aria']['reportRegion'])
 
 def storeSettings(obj):
