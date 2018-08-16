@@ -1,6 +1,6 @@
 # Aria mejorada
 
-Versión 2.0
+Versión 2.1
 
 ## Introducción
 
@@ -19,6 +19,10 @@ Puedes activar o desactivar puntos de referencia yendo a NVDA, preferencias, Aju
 Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jm.delicado@nvda.es, o abre una incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
+
+### Versión 2.1
+
+* Mejoras de estabilidad
 
 ### Versión 2.0
 
