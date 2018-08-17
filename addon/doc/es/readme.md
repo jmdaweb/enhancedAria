@@ -1,6 +1,6 @@
 # Aria mejorada
 
-Versión 2.1
+Versión 2.2
 
 ## Introducción
 
@@ -8,7 +8,7 @@ Este complemento te permite configurar qué puntos de referencia Aria se anuncia
 
 Su funcionamiento es muy simple. Una vez instalado, abre tu navegador web y visita la web como siempre. Los puntos de referencia Aria anunciados por defecto  en Firefox y Chrome también serán visibles en Internet Explorer, por lo que podrás pulsar teclas rápidas de navegación para saltar entre ellos, y listarlos pulsando NVDA+f7 en todos los navegadores. Lee la guía de usuario de NVDA para más información.
 
-El complemento añade un punto de referencia extra que no viene incluido por defecto en NVDA, el artículo.
+El complemento añade un punto de referencia extra que no viene incluido por defecto en NVDA, el artículo (abreviado en Braille como art).
 
 ## El diálogo de configuración
 
@@ -19,6 +19,10 @@ Puedes activar o desactivar puntos de referencia yendo a NVDA, preferencias, Aju
 Este complemento ha sido desarrollado por José Manuel Delicado. Si quieres contactar conmigo, envía un e-mail a jm.delicado@nvda.es, o abre una incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
+
+### Versión 2.2
+
+* Se ha solucionado un error fatal que se producía al usar una pantalla Braille si la verbalización de artículos estaba activada.
 
 ### Versión 2.1
 

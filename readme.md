@@ -1,6 +1,6 @@
 # Enhanced Aria
 
-Version 2.1
+Version 2.2
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This addon allows you to customize which aria landmarks are reported by NVDA whe
 
 Its functionality is very simple. Once installed, open your webbrowser and visit the web as usual. The default aria landmarks reported by Firefox and Chrome will also be visible in Internet Explorer, so you will be able to press quick navigation keys to jump between them, and list them by pressing NVDA+f7 in all browsers. Read the NVDA User Guide for more information.
 
-The addon adds an extra landmark not included by default in NVDA, the article.
+The addon adds an extra landmark not included by default in NVDA, the article (abbreviated in Braille as art).
 
 ## The configuration dialog
 
@@ -19,6 +19,10 @@ You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Changelog
+
+### Version 2.2
+
+* Fixed a fatal error when a Braille display was used and the article role was configured to be reported.
 
 ### Version 2.1
 
