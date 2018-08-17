@@ -77,7 +77,7 @@ def applyConfig():
 		conf_aria['article']=_("article")
 		conf_html['article']='article'
 		#TRANSLATORS: Braille abbreviation for an article element inside a document
-		conf_braille['article']=pgettext("braille landmark abbreviation", "art")
+		conf_braille['article']=_("art")
 	aria.landmarkRoles=conf_aria
 	aria.htmlNodeNameToAriaLandmarkRoles=conf_html
 	braille.landmarkLabels=conf_braille
