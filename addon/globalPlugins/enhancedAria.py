@@ -4,8 +4,10 @@
 #Copyright (C) 2018 Jose Manuel Delicado <jm.delicado@nvda.es>
 
 import aria
+import braille
 orig_roles=aria.landmarkRoles.copy()
 orig_html=aria.htmlNodeNameToAriaLandmarkRoles.copy()
+orig_braille=braille.landmarkLabels.copy()
 import addonHandler
 addonHandler.initTranslation()
 import globalPluginHandler
@@ -38,35 +40,47 @@ config.conf.spec['aria']=confspec
 def applyConfig():
 	conf_aria={}
 	conf_html={}
+	conf_braille={}
 	if config.conf['aria']['reportBanner']:
 		conf_aria['banner']=orig_roles['banner']
 		conf_html['header']='banner'
+		conf_braille['banner']=orig_braille['banner']
 	if config.conf['aria']['reportMain']:
 		conf_aria['main']=orig_roles['main']
 		conf_html['main']='main'
+		conf_braille['main']=orig_braille['main']
 	if config.conf['aria']['reportNavigation']:
 		conf_aria['navigation']=orig_roles['navigation']
 		conf_html['nav']='navigation'
+		conf_braille['navigation']=orig_braille['navigation']
 	if config.conf['aria']['reportContentinfo']:
 		conf_aria['contentinfo']=orig_roles['contentinfo']
 		conf_html['footer']='contentinfo'
+		conf_braille['contentinfo']=orig_braille['contentinfo']
 	if config.conf['aria']['reportSearch']:
 		conf_aria['search']=orig_roles['search']
+		conf_braille['search']=orig_braille['search']
 	if config.conf['aria']['reportForm']:
 		conf_aria['form']=orig_roles['form']
 		conf_html['form']='form'
+		conf_braille['form']=orig_braille['form']
 	if config.conf['aria']['reportComplementary']:
 		conf_aria['complementary']=orig_roles['complementary']
 		conf_html['aside']='complementary'
+		conf_braille['complementary']=orig_braille['complementary']
 	if config.conf['aria']['reportRegion']:
 		conf_aria['region']=orig_roles['region']
 		conf_html['section']='region'
+		conf_braille['region']=orig_braille['region']
 	if config.conf['aria']['reportArticle']:
 		#TRANSLATORS: An article element inside a document
 		conf_aria['article']=_("article")
 		conf_html['article']='article'
+		#TRANSLATORS: Braille abbreviation for an article element inside a document
+		conf_braille['article']=pgettext("braille landmark abbreviation", "art")
 	aria.landmarkRoles=conf_aria
 	aria.htmlNodeNameToAriaLandmarkRoles=conf_html
+	braille.landmarkLabels=conf_braille
 
 # Common functions for dialog and panel classes to create and retrieve settings
 def createSettings(obj, sizer):
@@ -128,6 +142,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		try:
 			aria.landmarkRoles=orig_roles
 			aria.htmlNodeNameToAriaLandmarkRoles=orig_html
+			braille.landmarkLabels=orig_braille
 			if hasattr(settingsDialogs, 'SettingsPanel'):
 				NVDASettingsDialog.categoryClasses.remove(enhancedAriaPanel)
 			else:
