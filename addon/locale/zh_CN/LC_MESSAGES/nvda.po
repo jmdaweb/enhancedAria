@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enhancedAria package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancedAria 2.2\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:15+1000\n"
+"PO-Revision-Date: 2018-12-01 20:02+0800\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "Aria属性增强设置"
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr "文档"
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr "文档"
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "读出横幅区"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "读出主体内容区"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "读出搜索表单"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr "读出角色表单"
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "读出导航区"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "读出辅助内容区"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "读出信息内容区"
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "读出文档区"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "读出其他标记区"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "Aria属性增强设置..."
+
+msgid "Change enhanced Aria settings"
+msgstr "更改Aria属性增强设置"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "Aria属性增强"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr ""
+" 此插件允许您在浏览网站时自定义朗读Aria属性路标。\n"
+"它补充了NVDA默认不支持的额外aria属性路标。"

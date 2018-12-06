@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enhancedAria package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MelhoramentosDoAria 2.2\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:15+1000\n"
+"PO-Revision-Date: 2018-11-29 23:05+0000\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA: <ampa4374@gmail.com; rui."
+"fontes@tiflotecnia.pt>\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "Configurações do melhoramentos do Aria"
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr "artigo"
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr "art"
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "Indicação de banners"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "indicar conteúdo principal"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "Indicar formulários de pesquisa"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr "Indicar formulários com regras de formulário"
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "Indicar áreas de navegação"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "Indicar conteúdo complementar"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "Indicar conteúdo de áreas de informação"
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "Indicar artigos"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "Indicar outras regiões etiquetadas"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "Configurações do melhoramentos do aria..."
+
+msgid "Change enhanced Aria settings"
+msgstr "Mudar as configurações do melhoramentos do aria"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "Melhoramentos do aria"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr ""
+"Este extra permite que especifique quais os pontos de referência do Aria "
+"serão indicados ao navegar em um site.\n"
+"Tem suporte para marcadores adicionais de ária que não estão incluídos, por "
+"defeito, no NVDA."
