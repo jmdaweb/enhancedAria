@@ -1,8 +1,8 @@
-# Enhanced Aria
+[[!meta title="Enhanced Aria"]]
 
-Version 2.3
-
-## Introduction
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
+* Download [stable version][1]
 
 This addon allows you to customize which aria landmarks are reported by NVDA when you browse the Internet.
 
@@ -50,3 +50,7 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 ### Version 1.1
 
 * Fixed issues which prevented opening the addon settings dialog when reverting to NVDA saved configuration
+
+[[!tag dev stable]]
+
+[1]: https://addons.nvda-project.org/files/get.php?file=earia
