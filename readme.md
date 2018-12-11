@@ -49,6 +49,4 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 * Fixed issues which prevented opening the addon settings dialog when reverting to NVDA saved configuration
 
-[[!tag dev stable]]
-
 [1]: https://addons.nvda-project.org/files/get.php?file=earia
