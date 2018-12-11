@@ -1,5 +1,3 @@
-[[!meta title="Enhanced Aria"]]
-
 * Author: Jose Manuel Delicado
 * NVDA compatibility: 2017.3 to 2019.1
 * Download [stable version][1]
