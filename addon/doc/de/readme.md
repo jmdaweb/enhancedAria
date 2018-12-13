@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autor: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * [Stabile Version herunterladen][1]
 
 Mit dieser Erweiterung können Sie einstellen, welche Aria-Sprungmarken beim
@@ -34,6 +35,11 @@ jm.delicado@nvda.es, oder öffnen Sie einen Fehlerbericht auf GitHub unter
 https://github.com/jmdaweb/enhancedAria
 
 ## Änderungsprotokoll
+
+### Version 2.3
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Version 2.2
 

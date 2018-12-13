@@ -1,6 +1,7 @@
 # àrea Realçada #
 
 * Autor: José Manuel Delicado
+* Compatibilidade com NVDA: 2017.3 a 2019.1
 * Baixar [versão estável][1]
 
 Este extra permite personalizar quais os marcadores que são reportados pelo
@@ -32,6 +33,11 @@ contato comigo, envie um e-mail para jmdaweb@hotmail.com ou abra um problema
 no GitHub em https://github.com/jmdaweb/enhancedAria
 
 ## Alterações:
+
+### Versão 2.3
+
+* Acrescentada compatibilidade com as versões recentes do NVDA 
+* Novas Traduções:
 
 ### Versão 2.2
 

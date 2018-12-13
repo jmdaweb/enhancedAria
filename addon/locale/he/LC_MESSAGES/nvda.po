@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enhancedAria package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancedAria 2.2\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:15+1000\n"
+"PO-Revision-Date: 2018-12-07 01:41+0200\n"
+"Last-Translator: shmuel naaman <shmuel_naaman@yahoo.com>\n"
+"Language-Team: Shmuel Naaman <nvda.israel@gmail.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "הגדרות Enhanced Aria "
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr "מאמר"
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr "ממר"
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "דווח על באנרים"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "דווח על אזור תוכן ראשי"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "דווח על שדה חיפוש"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr "דווח על טופס עם יעודו של כל שדה"
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "דווח על אזור ניווט"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "דווח על תוכן משלים"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "דווח על איזורי מידע "
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "דווח על מאמרים"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "דווח על איזורים מתוייגים נוספים."
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "הגדרות Enhanced aria  ..."
+
+msgid "Change enhanced Aria settings"
+msgstr "שנה הגדרות enhanced Aria "
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "enhanced Aria Enhanced Aria"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr "תוסף זה יאפשר לך לקבוע איזה רכיבי  Aria  יוקראו במהלך גלישה באינטרנט."

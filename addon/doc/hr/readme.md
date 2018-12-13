@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autor: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Preuzmi [stable version][1]
 
 Ovaj dodatak dozvoljava vam da odredite koji Aria orijentiri se prijavljuju
@@ -30,6 +31,11 @@ contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on
 GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Promjene
+
+### Version 2.3
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Version 2.2
 

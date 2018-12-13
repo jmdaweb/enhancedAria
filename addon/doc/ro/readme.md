@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autor: José Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Descărcați [versiunea stabilă][1]
 
 Acest supliment vă permite să particularizați ce repere sunt raportate de
@@ -31,6 +32,11 @@ contactați, trimiteți un e-mail la jm.delicado@nvda.es, sau raportați un bug
 pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
+
+### Version 2.3
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Versiunea 2.2
 

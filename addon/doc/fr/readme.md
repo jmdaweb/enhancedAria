@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Auteur : Jose Manuel Delicado
+* Compatibilité NVDA: 2017.3 à 2019.1
 * Télécharger [version stable][1]
 
 Ce module complémentaire vous permet de personnaliser les régions d'aria
@@ -33,6 +34,11 @@ souhaitez me contacter, envoyez un e-mail à jm.delicado@nvda.es, ou ouvrez
 une incidence sur GitHub à l'adresse https://github.com/jmdaweb/enhancedAria
 
 ## Journal des changements
+
+### Version 2.3
+
+* Ajout de la compatibilité avec les dernières versions de NVDA.
+* Nouvelles traductions.
 
 ### Version 2.2
 

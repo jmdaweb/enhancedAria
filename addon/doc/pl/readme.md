@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autor: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Pobierz [wersja stabilna][1]
 
 Ten dodatek pozwala określić, które punkty orientacyjne mają być wymawiane
@@ -32,6 +33,11 @@ skontaktować, wyślij e-mail na adres jm.delicado@nvda.es, lub utwórz temat w
 GitHubie na stronie https://github.com/jmdaweb/enhancedAria
 
 ## Lista zmian
+
+### Version 2.3
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Wersja 2.2
 

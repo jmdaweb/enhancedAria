@@ -1,6 +1,7 @@
 # Laajennettu Aria #
 
 * Tekijä: Jose Manuel Delicado
+* NVDA compatibility: 2017.3 to 2019.1
 * Lataa [vakaa versio][1]
 
 Tämän lisäosan avulla voit mukauttaa, mitä ARIA-kiintopisteitä  NVDA puhuu
@@ -32,6 +33,11 @@ häneen, lähetä sähköpostia osoitteeseen jm.delicado@nvda.es tai avaa kysymy
 GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria
 
 ## Muutosloki
+
+### Version 2.3
+
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Versio 2.2
 
