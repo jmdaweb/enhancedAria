@@ -1,7 +1,7 @@
-# Enhanced Aria #
+# Erweitertes Aria #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
+* NVDA-Kompatibilität: 2017.3 bis 2019.1
 * [Stabile Version herunterladen][1]
 
 Mit dieser Erweiterung können Sie einstellen, welche Aria-Sprungmarken beim
@@ -38,8 +38,8 @@ https://github.com/jmdaweb/enhancedAria
 
 ### Version 2.3
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Es wurde die Kompatibilität mit den neuesten NVDA-Versionen hinzugefügt.
+* Neue Übersetzungen.
 
 ### Version 2.2
 
