@@ -1,11 +1,11 @@
 # Enhanced Aria #
 
 * Autore: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
-* Download [stable version][1]
+* Compatibilità con NVDA: dalla 2017.3 alla 2019.1
+* Scarica la [versione stabile][1]
 
-Questo componente aggiuntivo consente di personalizzare quali sezioni, o
-punti di riferimento,  ARIA NVDA debba annunciare durante la navigazione web
+Questo componente aggiuntivo consente di personalizzare quali punti di
+riferimento ARIA NVDA debba annunciare durante la navigazione web.
 
 Le sue funzioni sono molto semplici. Una volta installato, aprire il browser
 e navigare come al solito. Le sezioni mostrate in Google Chrome e Firefox
@@ -14,36 +14,37 @@ all'altra come sempre con il tasto "d", e usare NVDA-f7 per visualizzarle
 tutte in un elenco. Per maggiori informazioni su queste funzioni native di
 NVDA consultare la documentazione.
 
-The addon adds an extra landmark not included by default in NVDA, the
-article (abbreviated in Braille as art).
+Il componente aggiunge anche un nuovo tipo di punto di riferimento, chiamato
+Articolo, (abbreviato in braille art).
 
 ## La finestra di configurazione
 
-You can enable or disable landmarks by going to NVDA, preferences, Enhanced
-Aria Settings or from the appropriate category in the NVDA options
-dialog. The dialog has a checkbox for each landmark. If you disable a
-landmark, you won't be able to jump to it pressing the d key when browsing a
-webpage, and NVDA won't report it.
+Puoi attivare o disattivare i punti di riferimento andando nel menu di NVDA,
+preferenze, Enhanced Aria Settings, o dalle impostazioni di NVDA nella
+relativa categoria. Nella finestra esiste una casella di controllo per
+ciascun punto di riferimento. Se se ne disattiva uno di questi, non sarà più
+possibile utilizzare il tasto "D" per raggiungerlo e NVDA non lo leggerà più
+come tale.
 
 ## Informazioni di contatto
 
-This addon has been developed by Jose Manuel Delicado. If you want to
-contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on
-GitHub at https://github.com/jmdaweb/enhancedAria
+Questo componente è stato sviluppato da Jose Manuel Delicado. Per contatti è
+possibile inviare un'email a jmdaweb@hotmail.com, o aprire una segnalazione
+su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ## Cambiamenti
 
-### Version 2.3
+### Versione 2.3
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Aggiunta la compatibilità con le recenti versioni di NVDA. 
+* Nuove traduzioni. 
 
-### Version 2.2
+### Versione 2.2
 
 * Fixed a fatal error when a Braille display was used and the article role
   was configured to be reported.
 
-### Version 2.1
+### Versione 2.1
 
 * Stability improvements
 
