@@ -32,6 +32,12 @@ GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Promjene
 
+### Version 2.4
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Version 2.3
 
 * Added compatibility with recent NVDA releases.

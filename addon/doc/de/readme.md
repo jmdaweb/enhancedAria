@@ -36,6 +36,12 @@ https://github.com/jmdaweb/enhancedAria
 
 ## Änderungsprotokoll
 
+### Version 2.4
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Version 2.3
 
 * Es wurde die Kompatibilität mit den neuesten NVDA-Versionen hinzugefügt.
