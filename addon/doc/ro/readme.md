@@ -33,6 +33,12 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
+### Version 2.4
+
+* Now, settings are removed only when the add-on is
+  uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
+
 ### Versiunea 2.3
 
 * S-a adăugat compatibilitatea cu versiunile recente de NVDA.

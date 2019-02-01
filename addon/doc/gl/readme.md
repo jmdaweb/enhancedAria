@@ -34,6 +34,12 @@ issue en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Rexistro de cambios
 
+### Versión 2.4
+
+* Agora a configuración só se borra ao desinstalar o complemento, xa non se
+  restablece ao actualizalo.
+* Traducións novas e actualizadas.
+
 ### Versión 2.3
 
 * Engadida compatibilidade con versións recentes de NVDA.

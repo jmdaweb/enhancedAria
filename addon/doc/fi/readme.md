@@ -34,6 +34,12 @@ GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria
 
 ## Muutosloki
 
+### Versio 2.4
+
+* Asetukset poistetaan nyt vain, kun lisäosa poistetaan. Asetusten
+  oletusarvoja ei palauteta päivitettäessä.
+* Uusia ja päivitettyjä käännöksiä.
+
 ### Versio 2.3
 
 * Lisätty yhteensopivuus viimeisimpien NVDA-versioiden kanssa.

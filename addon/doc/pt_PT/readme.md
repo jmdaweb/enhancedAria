@@ -34,6 +34,12 @@ no GitHub em https://github.com/jmdaweb/enhancedAria
 
 ## Alterações:
 
+### Versão 2.4
+
+* Agora, as configurações são removidas somente quando o extra é
+  desinstalado. A configuração não é mais redefinida durante a actualização.
+* Novas Traduções, adicionadas e actualizadas:
+
 ### Versão 2.3
 
 * Acrescentada compatibilidade com as versões recentes do NVDA 
