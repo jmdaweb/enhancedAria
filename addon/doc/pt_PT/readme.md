@@ -34,6 +34,10 @@ no GitHub em https://github.com/jmdaweb/enhancedAria
 
 ## Alterações:
 
+### Version 2.5
+
+* Updated compatibility flags for recent NVDA versions.
+
 ### Versão 2.4
 
 * Agora, as configurações são removidas somente quando o extra é

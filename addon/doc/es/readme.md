@@ -34,6 +34,11 @@ incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
 
+### Versión 2.5
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+
 ### Versión 2.4
 
 * Ahora, los ajustes se eliminan sólo al desinstalar el complemento. La
