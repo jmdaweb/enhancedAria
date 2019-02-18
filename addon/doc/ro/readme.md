@@ -33,6 +33,10 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
+### Version 2.5
+
+* Updated compatibility flags for recent NVDA versions.
+
 ### Version 2.4
 
 * Now, settings are removed only when the add-on is

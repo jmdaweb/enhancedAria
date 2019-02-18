@@ -35,6 +35,11 @@ une incidence sur GitHub à l'adresse https://github.com/jmdaweb/enhancedAria
 
 ## Journal des changements
 
+### Version 2.5
+
+* Les indicateurs de compatibilité ont été mis à jour avec les versions
+  récentes de NVDA.
+
 ### Version 2.4
 
 * Désormais, les paramètres ne sont supprimés que lorsque le module

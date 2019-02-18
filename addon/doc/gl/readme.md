@@ -34,6 +34,10 @@ issue en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Rexistro de cambios
 
+### Version 2.5
+
+* Updated compatibility flags for recent NVDA versions.
+
 ### Versión 2.4
 
 * Agora a configuración só se borra ao desinstalar o complemento, xa non se
