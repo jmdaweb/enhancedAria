@@ -33,15 +33,15 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
-### Version 2.5
+### Versiunea 2.5
 
-* Updated compatibility flags for recent NVDA versions.
+* S-a actualizat compatibilitatea pentru versiunile recente de NVDA.
 
-### Version 2.4
+### Versiunea 2.4
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Acum, setările sunt șterse doar la dezinstalarea
+  suplimentului. Configurația nu mai este resetată la actualizare.
+* Traduceri noi și actualizate.
 
 ### Versiunea 2.3
 
