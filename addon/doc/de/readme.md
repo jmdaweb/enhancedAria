@@ -63,10 +63,10 @@ https://github.com/jmdaweb/enhancedAria
 ### Version 2.0
 
 * Unterstützung für den Multi-Kategorie-Einstellungsdialog ab NVDA 2018.2
-  wurde hinzugefügt.
+  wurde hinzugefügt
 * Kompatibilität für Python 3 hinzugefügt
 * Es wird nun das guiHelper Modul verwendet, um das Addon Interface zu
-  erstellen.
+  erstellen
 
 ### Version 1.3
 
@@ -75,13 +75,13 @@ https://github.com/jmdaweb/enhancedAria
 
 ### Version 1.2
 
-* Fehler wurden behoben.
+* Fehler wurden behoben
 
 ### Version 1.1
 
 * Es wurden Probleme behoben, die das Öffnen des Dialogs der
   Erweiterungseinstellungen nach dem Zurücksetzen auf die NVDA-gespeicherte
-  Konfiguration verhinderten.
+  Konfiguration verhinderten
 
 [[!tag dev stable]]
 
