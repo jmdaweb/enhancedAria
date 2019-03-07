@@ -1,4 +1,4 @@
-# Enhanced Aria #
+# Udvidet Aria #
 
 * Forfatter: Jose Manuel Delicado
 * NVDA-kompatibilitet: 2017.3 til 2019.1
