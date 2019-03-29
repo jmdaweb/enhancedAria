@@ -5,25 +5,25 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enhancedAria 2.2\n"
+"Project-Id-Version: enhancedAria 2.3\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2018-11-30 05:15+1000\n"
-"PO-Revision-Date: 2018-11-30 09:40+0100\n"
-"Language: fr\n"
+"POT-Creation-Date: 2018-12-14 05:15+1000\n"
+"PO-Revision-Date: 2019-03-02 10:26+0100\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.2\n"
 
 #. TRANSLATORS: Settings dialog and/or panel title
 msgid "Enhanced Aria settings"
-msgstr "Paramètres Enhanced Aria"
+msgstr "Indstillinger for Udvidet Aria"
 
 #. TRANSLATORS: An article element inside a document
 msgid "article"
-msgstr "article"
+msgstr "artikel"
 
 #. TRANSLATORS: Braille abbreviation for an article element inside a document
 msgid "art"
@@ -31,51 +31,51 @@ msgstr "art"
 
 #. TRANSLATORS: report banners checkbox
 msgid "Report banners"
-msgstr "Annoncer les bannières"
+msgstr "Rapportér bannere"
 
 #. TRANSLATORS: report main content checkbox
 msgid "Report main content"
-msgstr "Annoncer le contenu principal"
+msgstr "Rapportér hovedindhold"
 
 #. TRANSLATORS: report search forms checkbox
 msgid "Report search forms"
-msgstr "Annoncer les formulaires de recherche"
+msgstr "Rapportér søgeformularer"
 
 #. TRANSLATORS: report forms with form role checkbox
 msgid "Report forms with form role"
-msgstr "Annoncer les formulaires avec rôle de formulaire"
+msgstr "Rapportér formularer med form-rolle"
 
 #. TRANSLATORS: report navigation areas checkbox
 msgid "Report navigation areas"
-msgstr "Annoncer les zones de navigation"
+msgstr "Rapportér navigationsområder"
 
 #. TRANSLATORS: report complementary content checkbox
 msgid "Report complementary content"
-msgstr "Annoncer un contenu complémentaire"
+msgstr "Rapportér komplementært indhold"
 
 #. TRANSLATORS: report content info checkbox
 msgid "Report content info areas"
-msgstr "Annoncer les zones d'information sur le contenu"
+msgstr "Rapportér områder med information om indhold"
 
 #. TRANSLATORS: report articles checkbox
 msgid "Report articles"
-msgstr "Annoncer les articles"
+msgstr "Rapportér artikler"
 
 #. TRANSLATORS: report other labelled regions checkbox
 msgid "Report other labelled regions"
-msgstr "Annoncer autres régions marquées"
+msgstr "Rapportér andre navngivne områder"
 
 #. TRANSLATORS: The configuration option in NVDA Preferences menu
 msgid "Enhanced aria settings..."
-msgstr "Paramètres Enhanced Aria..."
+msgstr "Indstillinger for Udvidet Aria..."
 
 msgid "Change enhanced Aria settings"
-msgstr "Modifier les paramètres Enhanced Aria"
+msgstr "Ændre indstilling for Udvidet Aria"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 msgid "Enhanced Aria"
-msgstr "Enhanced Aria"
+msgstr "Udvidet Aria"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -85,7 +85,7 @@ msgid ""
 "It has support for extra aria landmarks which are not included by default in "
 "NVDA."
 msgstr ""
-" Cette extension vous permet de spécifier les régions aria qui "
-"seront annoncées lors de la navigation sur un site Web.\n"
-"Elle prend en charge les régions aria supplémentaires qui ne sont pas incluses "
-"par défaut dans NVDA."
+"Denne tilføjelse giver dig mulighed for at angive, hvilke Aria-landmærker "
+"der vil blive oplyst, når du browser på et websted.\n"
+"Denne tilføjelse indeholder understøttelse for yderligere landmærker, som "
+"ikke er medtaget som standard i NVDA."
