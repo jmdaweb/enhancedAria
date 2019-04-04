@@ -34,15 +34,15 @@ GitHubie na stronie https://github.com/jmdaweb/enhancedAria
 
 ## Lista zmian
 
-### Version 2.5
+### Versja 2.5
 
-* Updated compatibility flags for recent NVDA versions.
+* Dodano zgodność z najnowszymi wersjami NVDA.
 
-### Version 2.4
+### Versja 2.4
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Od teraz ustawienia usuwają się tylko po odinstalowaniu dodatku. Ponadto,
+  nie resetują się już po aktualizacji.
+* Nowe i zaktualizowane tłumaczenia.
 
 ### Wersja 2.3
 
