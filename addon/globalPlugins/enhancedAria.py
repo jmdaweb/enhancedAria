@@ -1,7 +1,7 @@
 #Enhanced Aria addon for NVDA
 #This file is covered by the GNU General Public License.
 #See the file COPYING.txt for more details.
-#Copyright (C) 2018 Jose Manuel Delicado <jm.delicado@nvda.es>
+#Copyright (C) 2019 Jose Manuel Delicado <jm.delicado@nvda.es>
 
 import aria
 import braille
@@ -137,6 +137,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			#TRANSLATORS: The configuration option in NVDA Preferences menu
 			self.enhancedAriaSettingsItem = self.prefsMenu.Append(wx.ID_ANY, _("Enhanced aria settings..."), _("Change enhanced Aria settings"))
 			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEnhancedAriaMenu, self.enhancedAriaSettingsItem)
+		config.post_configReset.register(applyConfig)
+		if hasattr(config, 'post_configProfileSwitch'):
+			config.post_configProfileSwitch.register(applyConfig)
+		elif hasattr(config, 'configProfileSwitched'):
+			config.configProfileSwitched.register(applyConfig)
 
 	def terminate(self):
 		try:
@@ -149,6 +154,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				self.prefsMenu.RemoveItem(self.enhancedAriaSettingsItem)
 		except:
 			pass
+		config.post_configReset.unregister(applyConfig)
+		if hasattr(config, 'post_configProfileSwitch'):
+			config.post_configProfileSwitch.unregister(applyConfig)
+		elif hasattr(config, 'configProfileSwitched'):
+			config.configProfileSwitched.unregister(applyConfig)
 
 	def onEnhancedAriaMenu(self, evt):
 		gui.mainFrame._popupSettingsDialog(enhancedAriaSettings)
