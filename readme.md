@@ -1,5 +1,5 @@
 * Author: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.2
+* NVDA compatibility: 2017.4 to 2019.2
 * Download [stable version][1]
 
 This addon allows you to customize which aria landmarks are reported by NVDA when you browse the Internet.
@@ -20,9 +20,9 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 ### Version 2.6
 
-* Updated compatibility flags for recent NVDA versions.
+* Updated compatibility flags for recent NVDA versions. This version is only compatible with NVDA 2017.4 and above.
 * New and updated translations.
-* Now, in NVDA 2017.4 and later, the configuration is applied after switching NVDA profiles.
+* Now, the configuration is automatically applied after switching NVDA profiles and restoring settings to factory defaults.
 
 ### Version 2.5
 

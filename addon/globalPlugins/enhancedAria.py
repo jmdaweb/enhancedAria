@@ -140,7 +140,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		config.post_configReset.register(applyConfig)
 		if hasattr(config, 'post_configProfileSwitch'):
 			config.post_configProfileSwitch.register(applyConfig)
-		elif hasattr(config, 'configProfileSwitched'):
+		else:
 			config.configProfileSwitched.register(applyConfig)
 
 	def terminate(self):
@@ -157,7 +157,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		config.post_configReset.unregister(applyConfig)
 		if hasattr(config, 'post_configProfileSwitch'):
 			config.post_configProfileSwitch.unregister(applyConfig)
-		elif hasattr(config, 'configProfileSwitched'):
+		else:
 			config.configProfileSwitched.unregister(applyConfig)
 
 	def onEnhancedAriaMenu(self, evt):
