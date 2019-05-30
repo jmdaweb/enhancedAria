@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Auteur : Jose Manuel Delicado
-* Compatibilité NVDA: 2017.3 à 2019.1
+* NVDA compatibility: 2017.4 to 2019.2
 * Télécharger [version stable][1]
 
 Cette extension vous permet de choisir quelles régions aria doivent être
@@ -34,6 +34,14 @@ me contacter, envoyez un e-mail à jm.delicado@nvda.es, ou ouvrez un incident
 sur GitHub à l'adresse https://github.com/jmdaweb/enhancedAria
 
 ## Journal des changements
+
+### Version 2.6
+
+* Updated compatibility flags for recent NVDA versions. This version is only
+  compatible with NVDA 2017.4 and above.
+* Nouvelles traductions et mises à jour.
+* Now, the configuration is automatically applied after switching NVDA
+  profiles and restoring settings to factory defaults.
 
 ### Version 2.5
 

@@ -1,7 +1,7 @@
 # Erweitertes Aria #
 
 * Autor: Jose Manuel Delicado
-* NVDA-Kompatibilität: 2017.3 bis 2019.1
+* NVDA compatibility: 2017.4 to 2019.2
 * [Stabile Version herunterladen][1]
 
 Mit dieser Erweiterung können Sie einstellen, welche Aria-Sprungmarken beim
@@ -35,6 +35,14 @@ jm.delicado@nvda.es, oder öffnen Sie einen Fehlerbericht auf GitHub unter
 https://github.com/jmdaweb/enhancedAria
 
 ## Änderungsprotokoll
+
+### Version 2.6
+
+* Updated compatibility flags for recent NVDA versions. This version is only
+  compatible with NVDA 2017.4 and above.
+* Neue und aktualisierte Übersetzungen
+* Now, the configuration is automatically applied after switching NVDA
+  profiles and restoring settings to factory defaults.
 
 ### Version 2.5
 

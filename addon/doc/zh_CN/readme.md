@@ -1,7 +1,7 @@
 # 增强aria“ #
 
 * 作者: Jose Manuel Delicado
-* NVDA兼容版本: 2017.3至2019.1
+* NVDA compatibility: 2017.4 to 2019.2
 * 下载 [稳定版][1]
 
 此插件允许您在浏览Internet时自定义NVDA报告哪些Aria地标。
@@ -21,6 +21,14 @@ Explorer中显示，因此您可以按快速导航键在它们之间跳转，并
 Delicado开发。如果您想与我联系，请发送电子邮件至jm.delicado@nvda.es，或通过https://github.com/jmdaweb/enhancedAria在GitHub上提交问题
 
 ## 更新日志
+
+### Version 2.6
+
+* Updated compatibility flags for recent NVDA versions. This version is only
+  compatible with NVDA 2017.4 and above.
+* 新的更新和翻译。
+* Now, the configuration is automatically applied after switching NVDA
+  profiles and restoring settings to factory defaults.
 
 ### 版本2.5
 

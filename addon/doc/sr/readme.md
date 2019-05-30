@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autor: Jose Manuel Delicado
-* NVDA kompatibilnost: 2017.3 do 2019.1
+* NVDA compatibility: 2017.4 to 2019.2
 * Preuzmi [stabilnu verziju][1]
 
 Ovaj dodatak vam dozvoljava da odredite koji Aria orjentiri se prijavljuju
@@ -33,6 +33,14 @@ prijavite grešku na Githubu na adresi
 https://github.com/jmdaweb/enhancedAria
 
 ## Promene
+
+### Version 2.6
+
+* Updated compatibility flags for recent NVDA versions. This version is only
+  compatible with NVDA 2017.4 and above.
+* Novi i ažurirani prevodi.
+* Now, the configuration is automatically applied after switching NVDA
+  profiles and restoring settings to factory defaults.
 
 ### Verzija 2.5
 

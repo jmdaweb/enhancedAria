@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autore: Jose Manuel Delicado
-* Compatibilità con NVDA: dalla 2017.3 alla 2019.1
+* NVDA compatibility: 2017.4 to 2019.2
 * Scarica la [versione stabile][1]
 
 Questo componente aggiuntivo consente di personalizzare quali punti di
@@ -33,6 +33,14 @@ possibile inviare un'email a jmdaweb@hotmail.com, o aprire una segnalazione
 su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ## Cambiamenti
+
+### Version 2.6
+
+* Updated compatibility flags for recent NVDA versions. This version is only
+  compatible with NVDA 2017.4 and above.
+* New and updated translations.
+* Now, the configuration is automatically applied after switching NVDA
+  profiles and restoring settings to factory defaults.
 
 ### Version 2.5
 

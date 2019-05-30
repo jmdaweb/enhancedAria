@@ -1,7 +1,7 @@
 # àrea Realçada #
 
 * Autor: José Manuel Delicado
-* Compatibilidade com NVDA: 2017.3 a 2019.1
+* Compatibilidade com NVDA: 2017.4 até 2019.2
 * Baixar [versão estável][1]
 
 Este extra permite personalizar quais os marcadores que são reportados pelo
@@ -33,6 +33,14 @@ contato comigo, envie um e-mail para jmdaweb@hotmail.com ou abra um problema
 no GitHub em https://github.com/jmdaweb/enhancedAria
 
 ## Alterações:
+
+### Versão 2.6
+
+* Etiquetas de compatibilidade actualizadas para versões recentes do
+  NVDA. Esta versão é compatível apenas com o NVDA 2017.4 e superior.
+* Novas Traduções, adicionadas e actualizadas:
+* Agora, a configuração é aplicada automaticamente, após alternar os perfis
+  do NVDA e restaurar as configurações para os padrões originais.
 
 ### Versão 2.5
 

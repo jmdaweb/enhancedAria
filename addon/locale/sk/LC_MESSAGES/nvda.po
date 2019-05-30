@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enhancedAria package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancedAria 2.3\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-12-14 05:15+1000\n"
+"PO-Revision-Date: 2019-05-28 01:31+0200\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "Nastavenia enhanced Aria"
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr ""
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr ""
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "Oznamovať bannery"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "Oznamovať hlavný obsah"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "Oznamovať vyhľadávací formulár"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr ""
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "Oznamovať oblasti navigácie"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "Oznamovať komplextný obsah"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "Oznaovať oblast informácií o obsahu"
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "Oznamovať článok"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "Oznamovať ďalšie oblasti"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "Enhanced Aria\\ nastavenie..."
+
+msgid "Change enhanced Aria settings"
+msgstr "Zmente nastavenia Enhanced Aria"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "Enhanced Aria"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr ""
+"Tento doplnok umožňuje určiť, ktoré orientačné body Aria sa budú používať "
+"pri prehliadaní webových stránok.\n"
+"Má podporu pre extra aria orientačné body, ktoré nie sú štandardne zahrnuté "
+"v NVDA."

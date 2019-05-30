@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autor: José Manuel Delicado
-* Compatibilidad con NVDA: de 2017.3 a 2019.1
+* Compatibilidad con NVDA: de 2017.4 a 2019.2
 * Descargar [versión estable][1]
 
 Este complemento te permite personalizar qué puntos de referencia aria
@@ -33,6 +33,15 @@ contactarlo, envía un correo electrónico a jm.delicado@nvda.es, o abre una
 incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
+
+### Versión 2.6
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA. Esta versión tan sólo es compatible con NVDA 2017.4 y
+  versiones posteriores.
+* Nuevas traducciones y traducciones actualizadas.
+* Ahora se aplica la configuración automáticamente después de cambiar de
+  perfil o restablecer los ajustes a valores de fábrica.
 
 ### Versión 2.5
 
