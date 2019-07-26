@@ -18,6 +18,11 @@ This addon has been developed by Jose Manuel Delicado. If you want to contact me
 
 ## Changelog
 
+### Version 2.7
+
+* Updated compatibility flags for recent NVDA versions.
+* New and updated translations.
+
 ### Version 2.6
 
 * Updated compatibility flags for recent NVDA versions. This version is only compatible with NVDA 2017.4 and above.
