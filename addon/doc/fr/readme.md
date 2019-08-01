@@ -35,6 +35,12 @@ sur GitHub à l'adresse https://github.com/jmdaweb/enhancedAria
 
 ## Journal des changements
 
+### Version 2.7
+
+* Les indicateurs de compatibilité ont été mis à jour pour les versions
+  récentes de NVDA.
+* Nouvelles traductions et mises à jour.
+
 ### Version 2.6
 
 * Updated compatibility flags for recent NVDA versions. This version is only

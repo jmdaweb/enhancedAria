@@ -34,6 +34,11 @@ GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria
 
 ## Muutosloki
 
+### Versio 2.7
+
+* Yhteensopivuusliput päivitetty uusimmille NVDA-versioille.
+* Uusia ja päivitettyjä käännöksiä.
+
 ### Versio 2.6
 
 * Yhteensopivuusliput päivitetty uusimmille NVDA-versioille. Tämä versio on

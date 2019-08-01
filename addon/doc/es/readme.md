@@ -34,6 +34,12 @@ incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
 
+### Versión 2.7
+
+* Se han actualizado los indicadores de compatibilidad con versiones
+  recientes de NVDA.
+* Nuevas traducciones y traducciones actualizadas.
+
 ### Versión 2.6
 
 * Se han actualizado los indicadores de compatibilidad con versiones

@@ -33,6 +33,11 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
+### Version 2.7
+
+* S-a actualizat compatibilitatea pentru versiunile recente de NVDA.
+* Traduceri noi și actualizate.
+
 ### Version 2.6
 
 * Updated compatibility flags for recent NVDA versions. This version is only
