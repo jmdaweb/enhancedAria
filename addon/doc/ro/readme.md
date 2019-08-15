@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autor: José Manuel Delicado
-* NVDA compatibility: 2017.4 to 2019.2
+* Compatibilitate NVDA: 2017.4 - 2019.2
 * Descărcați [versiunea stabilă][1]
 
 Acest supliment vă permite să particularizați ce repere sunt raportate de
@@ -33,18 +33,18 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
-### Version 2.7
+### Versiunea 2.7
 
 * S-a actualizat compatibilitatea pentru versiunile recente de NVDA.
 * Traduceri noi și actualizate.
 
-### Version 2.6
+### Versiunea 2.6
 
-* Updated compatibility flags for recent NVDA versions. This version is only
-  compatible with NVDA 2017.4 and above.
+* S-a actualizat compatibilitatea pentru versiunile recente de NVDA. Această
+  versiune este compatibilă numai cu NVDA 2017.4 și versiunile mai noi.
 * Traduceri noi și actualizate.
-* Now, the configuration is automatically applied after switching NVDA
-  profiles and restoring settings to factory defaults.
+* Acum, configurația se aplică automat după comutarea profilurilor NVDA și
+  restaurarea setărilor din fabrică.
 
 ### Versiunea 2.5
 
