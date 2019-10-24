@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autore: Jose Manuel Delicado
-* NVDA compatibility: 2017.4 to 2019.2
+* Compatibilità con NVDA: dalla 2017.4 alla 2019.2
 * Scarica la [versione stabile][1]
 
 Questo componente aggiuntivo consente di personalizzare quali punti di
@@ -34,28 +34,29 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ## Cambiamenti
 
-### Version 2.7
+### Versione 2.7
 
-* Updated compatibility flags for recent NVDA versions.
-* New and updated translations.
+* Aggiunta la compatibilità con le recenti versioni di NVDA. 
+* Traduzioni nuove e aggiornate
 
-### Version 2.6
+### Versione 2.6
 
-* Updated compatibility flags for recent NVDA versions. This version is only
-  compatible with NVDA 2017.4 and above.
-* New and updated translations.
-* Now, the configuration is automatically applied after switching NVDA
-  profiles and restoring settings to factory defaults.
+* Aggiunta la compatibilità con le recenti versioni di NVDA. Questa versione
+  risulta compatibile a partire da NVDA 2017.4 in poi
+* Traduzioni nuove e aggiornate
+* Ora, la configurazione viene automaticamente applicata dopo aver cambiato
+  i profili NVDA e ripristinato le impostazioni predefinite di fabbrica.
 
-### Version 2.5
+### Versione 2.5
 
-* Updated compatibility flags for recent NVDA versions.
+* Aggiunta la compatibilità con le recenti versioni di NVDA. 
 
-### Version 2.4
+### Versione 2.4
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Ora, le impostazioni vengono rimosse solo quando viene disinstallato il
+  componente aggiuntivo. La configurazione non viene più ripristinata
+  durante l'aggiornamento.
+* Traduzioni nuove e aggiornate
 
 ### Versione 2.3
 
