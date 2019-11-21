@@ -1,0 +1,92 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancedAria 2.2\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 05:15+1000\n"
+"PO-Revision-Date: 2019-11-15 23:30+0100\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "Postavke za poboljšana ARIA svojstva"
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr "članak"
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr "umjetnost"
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "Izvijesti o natpisima"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "Izvijesti o glavnom sadržaju"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "Izvijesti o obrascima za pretragu"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr "Izvijesti o obrascima koji imaju ulogu obrasca"
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "Izvijesti o područjima za navigaciju"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "Izvijesti o dopunskom sadržaju"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "Izvijesti o područjima s informacijama o sadržaju"
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "Izvijesti o člancima"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "Izvijesti o drugim označenim područjima"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "Postavke za poboljšana ARIA svojstva …"
+
+msgid "Change enhanced Aria settings"
+msgstr "Promijeni postavke za poboljšana ARIA svojstva"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "Poboljšana ARIA svojstva"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr ""
+"Ovaj dodatak omogućava određivanje ARIA orijentira koji će se govoriti "
+"tijekom pregledavanja web stranica.\n"
+"Podržava dodatne ARIA orijentire, koji nisu standardno uključeni u NVDA."

@@ -1,80 +1,96 @@
-# Enhanced Aria #
+# Poboljšana ARIA svojstva (Enhanced Aria) #
 
 * Autor: Jose Manuel Delicado
-* NVDA compatibility: 2017.3 to 2019.1
-* Preuzmi [stable version][1]
+* NVDA kompatibilnost: 2017.4 do 2019.2
+* Preuzmi [stabilnu verziju][1]
 
-Ovaj dodatak dozvoljava vam da odredite koji Aria orijentiri se prijavljuju
-dok pretražujete Internet.
+Ovaj dodatak dozvoljava određivanje ARIA orijentira o kojima se izvještava
+za vrijeme čitanja u internetu.
 
-Njegova funkcija je vrlo jednostavna. Kada je instaliran, otvorite vaš Web
-preglednik i pretražujte kao i obično. Podrazumijevani orijentiri koji se
+Njegova funkcija je vrlo jednostavna. Kad je dodatak instaliran, otvori Web
+preglednik i pretraži kao i obično. Standardni ARIA orijentiri koji se
 prijavljuju u Firefoxu i Chromeu će također biti vidljivi u Internet
-Exploreru, tako da možete koristiti tipke brze navigacije da skočite i
-skočite do njih komandom NVDA+F7 u svim pretraživačima.
+Exploreru, tako da je moguće koristiti tipke brze navigacije za prelaženje
+između pojedinih orijentira i izraditi popis orijentira pomoću tipkovnog
+prečaca NVDA+F7 u svim pretraživačima. Korisnički vodič za NVDA sadrži
+daljnje informacije.
 
-The addon adds an extra landmark not included by default in NVDA, the
-article (abbreviated in Braille as art).
+Dodatak dodaje dodatni orijentir koji nije standardno uključen u NVDA, a to
+je članak.
 
-## Dijaloški okvir konfiguracije 
+## Dijaloški okvir konfiguracije
 
-You can enable or disable landmarks by going to NVDA, preferences, Enhanced
-Aria Settings or from the appropriate category in the NVDA options
-dialog. The dialog has a checkbox for each landmark. If you disable a
-landmark, you won't be able to jump to it pressing the d key when browsing a
-webpage, and NVDA won't report it.
+Orijentiri se mogu aktivirati ili deaktivirati putem NVDA → Postavke →
+Postavke za poboljšana ARIA svojstva ili putem odgovarajuće kategorije u
+dijaloškom okviru za mogućnosti. U dijaloškom okviru se nalazi potvrdni
+okvir za svaki orijentir. Ako se orijentir deaktivira, prilikom čitanja web
+stranica neće biti moguće skočiti na njega pritiskom tipke „d”, a NVDA o
+tome neće izvjestiti.
 
 ## Kontakt informacije
 
-This addon has been developed by Jose Manuel Delicado. If you want to
-contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on
-GitHub at https://github.com/jmdaweb/enhancedAria
+Razvijatelj ovog dodatka je Jose Manuel Delicado. Ako me želiš kontaktirati,
+pošalji e-mail na jmdaweb@hotmail.com ili prijavi grešku na GitHubu na
+adresi https://github.com/jmdaweb/enhancedAria
 
 ## Promjene
 
-### Version 2.5
+### Verzija 2.7
 
-* Updated compatibility flags for recent NVDA versions.
+* Aktualizirane su kompatibilne oznake za novije NVDA verzije.
+* Novi i aktualizirani prijevodi.
 
-### Version 2.4
+### Verzija 2.6
 
-* Now, settings are removed only when the add-on is
-  uninstalled. Configuration is nolonger reset when upgrading.
-* New and updated translations.
+* Aktualizirane su kompatibilne oznake za nedavne NVDA verzije. Ova je
+  verzija kompatibilna samo s NVDA 2017.4 i novijim verzijama.
+* Novi i aktualizirani prijevodi.
+* Konfiguracija se sada automatski primjenjuje nakon prebacivanja NVDA
+  profila i vraćanja postavki na tvornički zadane postavke.
 
-### Version 2.3
+### Verzija 2.5
 
-* Added compatibility with recent NVDA releases.
-* New translations.
+* Aktualizirane su kompatibilne oznake za novije NVDA verzije.
 
-### Version 2.2
+### Verzija 2.4
 
-* Fixed a fatal error when a Braille display was used and the article role
-  was configured to be reported.
+* Postavke se sada uklanjaju samo kad je dodatak deinstaliran. Konfiguracija
+  se više ne resetira prilikom nadogradnje.
+* Novi i aktualizirani prijevodi.
 
-### Version 2.1
+### Verzija 2.3
 
-* Stability improvements
+* Dodana kompatibilnost s novijim NVDA izdanjima.
+* Novi prijevodi.
 
-### Version 2.0
+### Verzija 2.2
 
-* Added support for multi-category settings dialog available on NVDA 2018.2
-  and later
-* Added Python 3 compatibility
-* Now guiHelper module is used to create the addon interface
+* Ispravljena je fatalna greška tijekom upotrebe brajičnog retka i uloga
+  članka je konfigurirana za izvještavanje.
 
-### Version 1.3
+### Verzija 2.1
+
+* Poboljšana stabilnost
+
+### Verzija 2.0
+
+* Dodana je podrška za dijaloški okvir postavaka višestrukih kategorija, što
+  je dostupno u NVDA 2018.2 i novijim izdanjem
+* Dodana je Python 3 kompatibilnost
+* Sada se koristi „guiHelper” modul za izradu sučelja dodatka
+
+### Verzija 1.3
 
 * Dodana configobj specifikacija za postavke dodatka
 
-### Inačica 1.2
+### Verzija 1.2
 
 * Ispravljene greške
 
-### Inačica 1.1
+### Verzija 1.1
 
-* Popravljeni problemi u otvaranju dijaloškog okvira za podešavanje dodatka
-  kada se NVDA vrati na spremljene postavke
+* Popravljeni su problemi prilikom otvaranja dijaloškog okvira za postavke
+  dodatka, kad se NVDA vrati na spremljene konfiguraciju
 
 [[!tag dev stable]]
 
