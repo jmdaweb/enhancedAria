@@ -34,6 +34,11 @@ https://github.com/jmdaweb/enhancedAria
 
 ## Promene
 
+### Version 2.7
+
+* Ažurirani parametri kompatibilnosti za najnovije NVDA verzije.
+* Novi i ažurirani prevodi.
+
 ### Version 2.6
 
 * Updated compatibility flags for recent NVDA versions. This version is only

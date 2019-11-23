@@ -1,7 +1,7 @@
 # Udvidet Aria #
 
 * Forfatter: Jose Manuel Delicado
-* NVDA compatibility: 2017.4 to 2019.2
+* NVDA-kompatibilitet: 2017.4 til 2019.2
 * Download [stabil version][1]
 
 Denne tilføjelse giver dig mulighed for at tilpasse hvilke ARIA-landmærker,
@@ -35,13 +35,18 @@ GitHub https://github.com/jmdaweb/enhancedAria
 
 ## Ændringslog
 
+### Version 2.7
+
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner.
+* Nye og opdaterede oversættelser.
+
 ### Version 2.6
 
-* Updated compatibility flags for recent NVDA versions. This version is only
-  compatible with NVDA 2017.4 and above.
+* Opdaterede kompatibilitetsflag til nyere NVDA-versioner. Denne version er
+  kun kompatibel med NVDA 2017.4 og nyere.
 * Nye og opdaterede oversættelser.
-* Now, the configuration is automatically applied after switching NVDA
-  profiles and restoring settings to factory defaults.
+* Nu anvendes konfigurationen automatisk efter skift af NVDA-profiler og
+  gendannelse af indstillinger til fabriksindstillingerne.
 
 ### Version 2.5
 
