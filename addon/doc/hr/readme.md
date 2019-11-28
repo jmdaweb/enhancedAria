@@ -20,12 +20,12 @@ je članak.
 
 ## Dijaloški okvir konfiguracije
 
-Orijentiri se mogu aktivirati ili deaktivirati putem NVDA → Postavke →
-Postavke za poboljšana ARIA svojstva ili putem odgovarajuće kategorije u
-dijaloškom okviru za mogućnosti. U dijaloškom okviru se nalazi potvrdni
-okvir za svaki orijentir. Ako se orijentir deaktivira, prilikom čitanja web
-stranica neće biti moguće skočiti na njega pritiskom tipke „d”, a NVDA o
-tome neće izvjestiti.
+Orijentiri se mogu aktivirati ili deaktivirati putem NVDA>Postavke>Postavke
+za poboljšana ARIA svojstva ili putem odgovarajuće kategorije u dijaloškom
+okviru za mogućnosti. U dijaloškom okviru se nalazi potvrdni okvir za svaki
+orijentir. Ako se orijentir deaktivira, prilikom čitanja web stranica neće
+biti moguće skočiti na njega pritiskom tipke „d”, a NVDA o tome neće
+izvjestiti.
 
 ## Kontakt informacije
 
