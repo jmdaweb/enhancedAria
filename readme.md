@@ -1,5 +1,6 @@
 * Author: Jose Manuel Delicado
 * NVDA compatibility: 2017.4 to 2019.2
+* Legacy add-on: NVDA 2019.3 and later can read articles on the web
 * Download [stable version][1]
 
 This addon allows you to customize which aria landmarks are reported by NVDA when you browse the Internet.
@@ -17,6 +18,11 @@ You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria
 This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
 
 ## Changelog
+
+### Version 2.8
+
+* New and updated translations.
+* Updated NVDA compatibility flags.
 
 ### Version 2.7
 
