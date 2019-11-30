@@ -16,7 +16,7 @@ addon_info = {
 	"addon_description" : _(""" This addon allows you to specify which Aria landmarks will be spoken when browsing a website.
 It has support for extra aria landmarks which are not included by default in NVDA."""),
 	# version
-	"addon_version" : "2.6",
+	"addon_version" : "2.8",
 	# Author(s)
 	"addon_author" : "Jose Manuel Delicado <jm.delicado@nvda.es>",
 # URL for the add-on documentation support
