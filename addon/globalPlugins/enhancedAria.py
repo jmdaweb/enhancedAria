@@ -6,10 +6,7 @@
 import aria
 import braille
 orig_roles=aria.landmarkRoles.copy()
-if hasattr(aria, 'htmlNodeNameToAriaRoles'):
-	orig_html=aria.htmlNodeNameToAriaRoles.copy()
-else:
-	orig_html=aria.htmlNodeNameToAriaLandmarkRoles.copy()
+orig_html=aria.htmlNodeNameToAriaLandmarkRoles.copy()
 orig_braille=braille.landmarkLabels.copy()
 import addonHandler
 addonHandler.initTranslation()
@@ -46,19 +43,19 @@ def applyConfig():
 	conf_braille={}
 	if config.conf['aria']['reportBanner']:
 		conf_aria['banner']=orig_roles['banner']
-		conf_html['header']=orig_html['header']
+		conf_html['header']='banner'
 		conf_braille['banner']=orig_braille['banner']
 	if config.conf['aria']['reportMain']:
 		conf_aria['main']=orig_roles['main']
-		conf_html['main']=orig_html['main']
+		conf_html['main']='main'
 		conf_braille['main']=orig_braille['main']
 	if config.conf['aria']['reportNavigation']:
 		conf_aria['navigation']=orig_roles['navigation']
-		conf_html['nav']=orig_html['nav']
+		conf_html['nav']='navigation'
 		conf_braille['navigation']=orig_braille['navigation']
 	if config.conf['aria']['reportContentinfo']:
 		conf_aria['contentinfo']=orig_roles['contentinfo']
-		conf_html['footer']=orig_html['footer']
+		conf_html['footer']='contentinfo'
 		conf_braille['contentinfo']=orig_braille['contentinfo']
 	if config.conf['aria']['reportSearch']:
 		conf_aria['search']=orig_roles['search']
@@ -72,29 +69,17 @@ def applyConfig():
 		conf_html['aside']='complementary'
 		conf_braille['complementary']=orig_braille['complementary']
 	if config.conf['aria']['reportRegion']:
-		try:
-			conf_html['section']='region'
-			conf_aria['region']=orig_roles['region']
-			conf_braille['region']=orig_braille['region']
-		except:
-			#TRANSLATORS: A section element inside a document
-			conf_aria['region']=_("region")
-			#TRANSLATORS: Braille abbreviation for a section element inside a document
-			conf_braille['region']=_('reg')
+		conf_aria['region']=orig_roles['region']
+		conf_html['section']='region'
+		conf_braille['region']=orig_braille['region']
 	if config.conf['aria']['reportArticle']:
 		#TRANSLATORS: An article element inside a document
 		conf_aria['article']=_("article")
+		conf_html['article']='article'
 		#TRANSLATORS: Braille abbreviation for an article element inside a document
 		conf_braille['article']=_("art")
-	if hasattr(aria, 'htmlNodeNameToAriaRoles'): # 2019.3 and later
-		if config.conf['aria']['reportArticle']:
-			conf_html['article']=orig_html['article']
-		aria.htmlNodeNameToAriaRoles=conf_html
-	else:
-		if config.conf['aria']['reportArticle']:
-			conf_html['article']='article'
-		aria.htmlNodeNameToAriaLandmarkRoles=conf_html
 	aria.landmarkRoles=conf_aria
+	aria.htmlNodeNameToAriaLandmarkRoles=conf_html
 	braille.landmarkLabels=conf_braille
 
 # Common functions for dialog and panel classes to create and retrieve settings
