@@ -1,6 +1,7 @@
 # àrea Realçada #
 
 * Autor: José Manuel Delicado
+* Legacy add-on: NVDA 2019.3 and later can read articles on the web
 * Compatibilidade com NVDA: 2017.4 até 2019.2
 * Baixar [versão estável][1]
 
@@ -33,6 +34,11 @@ contato comigo, envie um e-mail para jmdaweb@hotmail.com ou abra um problema
 no GitHub em https://github.com/jmdaweb/enhancedAria
 
 ## Alterações:
+
+### Version 2.8
+
+* Novas Traduções, adicionadas e actualizadas:
+* Updated NVDA compatibility flags.
 
 ### Version 2.7
 
@@ -92,6 +98,6 @@ no GitHub em https://github.com/jmdaweb/enhancedAria
 * Corrigidos problemas que impediam a abertura da caixa de diálogo de
   configurações do extra ao reverter para a configuração guardada do NVDA
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

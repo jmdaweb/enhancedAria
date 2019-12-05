@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autore: Jose Manuel Delicado
+* Legacy add-on: NVDA 2019.3 and later can read articles on the web
 * Compatibilità con NVDA: dalla 2017.4 alla 2019.2
 * Scarica la [versione stabile][1]
 
@@ -33,6 +34,11 @@ possibile inviare un'email a jmdaweb@hotmail.com, o aprire una segnalazione
 su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ## Cambiamenti
+
+### Version 2.8
+
+* Traduzioni nuove e aggiornate
+* Updated NVDA compatibility flags.
 
 ### Versione 2.7
 
@@ -93,6 +99,6 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 * Sistemato un bug che impediva l'apertura dell'interfaccia dell'addon, dopo
   che la configurazione di NVDA è stata ripristinata.
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

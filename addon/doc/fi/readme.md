@@ -1,6 +1,8 @@
 # Laajennettu Aria #
 
 * Tekijä: Jose Manuel Delicado
+* Vanhentunut lisäosa: NVDA 2019.3 ja uudemmat voivat lukea verkkosivuilla
+  olevat artikkelielementit
 * Yhteensopivuus: NVDA 2017.4-2019.2
 * Lataa [vakaa versio][1]
 
@@ -33,6 +35,11 @@ häneen, lähetä sähköpostia osoitteeseen jm.delicado@nvda.es tai avaa kysymy
 GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria
 
 ## Muutosloki
+
+### Versio 2.8
+
+* Uusia ja päivitettyjä käännöksiä.
+* NVDA:n yhteensopivuusliput päivitetty.
 
 ### Versio 2.7
 
@@ -91,6 +98,6 @@ GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria
 * Korjattu ongelmia, jotka estivät lisäosan asetusvalintaikkunan avaamisen
   palautettaessa NVDA:n tallennettuja asetuksia
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

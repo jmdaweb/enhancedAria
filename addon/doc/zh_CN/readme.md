@@ -1,6 +1,7 @@
 # 增强aria“ #
 
 * 作者: Jose Manuel Delicado
+* 旧版插件：NVDA 2019.3和更高版本现在可以在网上阅读文章
 * NVDA兼容版本: 2017.4至2019.2
 * 下载 [稳定版][1]
 
@@ -21,6 +22,11 @@ Explorer中显示，因此您可以按快速导航键在它们之间跳转，并
 Delicado开发。如果您想与我联系，请发送电子邮件至jm.delicado@nvda.es，或通过https://github.com/jmdaweb/enhancedAria在GitHub上提交问题
 
 ## 更新日志
+
+### 版本2.8
+
+* 新的更新和翻译。
+* 更新NVDA兼容性标志。
 
 ### 版本2.7
 
@@ -73,6 +79,6 @@ Delicado开发。如果您想与我联系，请发送电子邮件至jm.delicado@
 
 * 修复了在恢复到NVDA保存配置时阻止打开插件设置对话框的问题
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

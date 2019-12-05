@@ -1,6 +1,7 @@
 # Erweitertes Aria #
 
 * Autor: Jose Manuel Delicado
+* Legacy-Erweiterung: NVDA 2019.3 und höher kann Artikel im Web lesen
 * NVDA-Kompatibilität: 2017.3 bis 2019.2
 * [Stabile Version herunterladen][1]
 
@@ -35,6 +36,11 @@ jm.delicado@nvda.es, oder öffnen Sie einen Fehlerbericht auf GitHub unter
 https://github.com/jmdaweb/enhancedAria
 
 ## Änderungsprotokoll
+
+### Version 2.8
+
+* Neue und aktualisierte Übersetzungen.
+* Aktualisierte Kompatibilitätsmarkierungen.
 
 ### Version 2.7
 
@@ -98,6 +104,6 @@ https://github.com/jmdaweb/enhancedAria
   Erweiterungseinstellungen nach dem Zurücksetzen auf die NVDA-gespeicherte
   Konfiguration verhinderten
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

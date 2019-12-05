@@ -1,6 +1,8 @@
 # Poboljšana ARIA svojstva (Enhanced Aria) #
 
 * Autor: Jose Manuel Delicado
+* Stari dodarak: NVDA 2019.3 i novije verzije mogu čitati članke na
+  internetu
 * NVDA kompatibilnost: 2017.4 do 2019.2
 * Preuzmi [stabilnu verziju][1]
 
@@ -35,14 +37,19 @@ adresi https://github.com/jmdaweb/enhancedAria
 
 ## Promjene
 
+### Verzija 2.8
+
+* Novi i aktualizirani prijevodi.
+* Aktualizirane su oznake kompatibilnosti za NVDA.
+
 ### Verzija 2.7
 
-* Aktualizirane su kompatibilne oznake za novije NVDA verzije.
+* Aktualizirane su oznake kompatibilnosti za novije NVDA verzije.
 * Novi i aktualizirani prijevodi.
 
 ### Verzija 2.6
 
-* Aktualizirane su kompatibilne oznake za nedavne NVDA verzije. Ova je
+* Aktualizirane su oznake kompatibilnosti za novije NVDA verzije. Ova je
   verzija kompatibilna samo s NVDA 2017.4 i novijim verzijama.
 * Novi i aktualizirani prijevodi.
 * Konfiguracija se sada automatski primjenjuje nakon prebacivanja NVDA
@@ -50,7 +57,7 @@ adresi https://github.com/jmdaweb/enhancedAria
 
 ### Verzija 2.5
 
-* Aktualizirane su kompatibilne oznake za novije NVDA verzije.
+* Aktualizirane su oznake kompatibilnosti za novije NVDA verzije.
 
 ### Verzija 2.4
 
@@ -92,6 +99,6 @@ adresi https://github.com/jmdaweb/enhancedAria
 * Popravljeni su problemi prilikom otvaranja dijaloškog okvira za postavke
   dodatka, kad se NVDA vrati na spremljene konfiguraciju
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

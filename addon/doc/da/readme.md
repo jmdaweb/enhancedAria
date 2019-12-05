@@ -1,6 +1,7 @@
 # Udvidet Aria #
 
 * Forfatter: Jose Manuel Delicado
+* Legacy add-on: NVDA 2019.3 and later can read articles on the web
 * NVDA-kompatibilitet: 2017.4 til 2019.2
 * Download [stabil version][1]
 
@@ -34,6 +35,11 @@ kontakte mig, send en e-mail til jm.delicado@nvda.es, eller åbn et issue på
 GitHub https://github.com/jmdaweb/enhancedAria
 
 ## Ændringslog
+
+### Version 2.8
+
+* Nye og opdaterede oversættelser.
+* Updated NVDA compatibility flags.
 
 ### Version 2.7
 
@@ -94,6 +100,6 @@ GitHub https://github.com/jmdaweb/enhancedAria
   tilføjelsesindstillinger, når du vendte tilbage til NVDA-gemt
   konfiguration
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

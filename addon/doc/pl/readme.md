@@ -1,6 +1,7 @@
 # Enhanced Aria #
 
 * Autor: Jose Manuel Delicado
+* Przestarzały dodatek: NVDA 2019.3 może odczytywać artykuły na stronach
 * Zgodność z wersjami NVDA: 2017.4 do 2019.2
 * Pobierz [wersja stabilna][1]
 
@@ -33,6 +34,11 @@ skontaktować, wyślij e-mail na adres jm.delicado@nvda.es, lub utwórz temat w
 GitHubie na stronie https://github.com/jmdaweb/enhancedAria
 
 ## Lista zmian
+
+### Wersja 2.8
+
+* Nowe i zaktualizowane tłumaczenia.
+* Zaktualizowano flagi zgodności.
 
 ### Wersja 2.7
 
@@ -90,6 +96,6 @@ GitHubie na stronie https://github.com/jmdaweb/enhancedAria
 * Naprawiono błędy, które uniemożliwiały otwarcie dialogu ustawień dodatku
   przy powrocie do zapisanych ustawień NVDA
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia

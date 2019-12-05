@@ -1,6 +1,8 @@
 # Enhanced Aria #
 
 * Autor: José Manuel Delicado
+* Complemento antiguo: NVDA 2019.3 y posteriores pueden leer artículos en la
+  web
 * Compatibilidad con NVDA: de 2017.4 a 2019.2
 * Descargar [versión estable][1]
 
@@ -33,6 +35,11 @@ contactarlo, envía un correo electrónico a jm.delicado@nvda.es, o abre una
 incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 
 ## Registro de cambios
+
+### Versión 2.8
+
+* Nuevas traducciones y traducciones actualizadas.
+* Se han actualizado los indicadores de compatibilidad de NVDA.
 
 ### Versión 2.7
 
@@ -95,6 +102,6 @@ incidencia en GitHub en https://github.com/jmdaweb/enhancedAria
 * Corregidos problemas que previenen la apertura del diálogo de opciones del
   complemento al volver a la configuración guardada de NVDA
 
-[[!tag dev stable]]
+[[!tag dev stable legacy]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=earia
