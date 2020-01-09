@@ -1,7 +1,7 @@
 # Enhanced Aria #
 
 * Autor: José Manuel Delicado
-* Legacy add-on: NVDA 2019.3 and later can read articles on the web
+* Supliment tradițional: NVDA 2019.3 și mai nou poate citi articole pe web
 * Compatibilitate NVDA: 2017.4 - 2019.2
 * Descărcați [versiunea stabilă][1]
 
@@ -34,10 +34,10 @@ pe Github la https://github.com/jmdaweb/enhancedAria
 
 ## Noutăți
 
-### Version 2.8
+### Versiunea 2.8
 
 * Traduceri noi și actualizate.
-* Updated NVDA compatibility flags.
+* S-a actualizat compatibilitatea pentru versiunile recente de NVDA.
 
 ### Versiunea 2.7
 
