@@ -1,15 +1,15 @@
-# Aria Otimizada (Enhanced Aria) #
+# Melhoramentos de Aria (Enhanced Aria) #
 
 * Autor: José Manuel Delicado
 * Complemento legado: NVDA 2019.3 e posteriores podem ler artigos na web
 * Compatibilidade com NVDA: 2017.4 a 2019.2
-* Baixar [versão estável][1]
+* Baixe a [versão estável][1]
 
 Esse complemento permite que você personalize quais marcos aria são
 informados pelo NVDA quando você navega na Internet.
 
 Sua funcionalidade é muito simples. Uma vez instalado, abra o seu navegador
-e visite a web normalmente. Os pontos de referência (marcos) aria padrão
+e visite a web normalmente. Os marcos (pontos de referência) aria padrão
 relatados pelo Firefox e pelo Chrome também estarão visíveis no Internet
 Explorer, portanto poderá pressionar as teclas de navegação rápida para
 alternar entre eles e listá-los pressionando NVDA+f7 em todos os
