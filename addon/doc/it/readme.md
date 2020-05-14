@@ -1,31 +1,33 @@
 # Enhanced Aria #
 
 * Autore: Jose Manuel Delicado
-* Legacy add-on: NVDA 2019.3 and later can read articles on the web
-* Compatibilità con NVDA: dalla 2017.4 alla 2019.2
+* Add-on non più necessario. NVDA 2019.3 e le versioni successive sono in
+  grado di leggere gli articoli nelle pagine web
+* Compatibilità con NVDA: dalla versione 2017.4 alla 2019.2
 * Scarica la [versione stabile][1]
 
 Questo componente aggiuntivo consente di personalizzare quali punti di
-riferimento ARIA NVDA debba annunciare durante la navigazione web.
+riferimento ARIA NVDA debba annunciare quando si naviga in Internet.
 
 Le sue funzioni sono molto semplici. Una volta installato, aprire il browser
-e navigare come al solito. Le sezioni mostrate in Google Chrome e Firefox
-verranno mostrate anche in Internet Explorer; sarà possibile passare da una
-all'altra come sempre con il tasto "d", e usare NVDA-f7 per visualizzarle
-tutte in un elenco. Per maggiori informazioni su queste funzioni native di
-NVDA consultare la documentazione.
+e navigare come al solito. I landmark ARIA di default mostrati in Google
+Chrome e Firefox verranno mostrate anche in Internet Explorer; sarà pertanto
+possibile passare da una all'altra come sempre con i tasti di navigazione
+veloce, e usare NVDA-f7 per visualizzarle tutte in un elenco. Per maggiori
+informazioni su queste funzioni native di NVDA consultare il manuale
+dell'utente.
 
-Il componente aggiunge anche un nuovo tipo di punto di riferimento, chiamato
-Articolo, (abbreviato in braille art).
+Il componente aggiunge un nuovo tipo di punto di riferimento, non incluso in
+NVDA, chiamato Articolo, (abbreviato in braille art).
 
 ## La finestra di configurazione
 
-Puoi attivare o disattivare i punti di riferimento andando nel menu di NVDA,
-preferenze, Enhanced Aria Settings, o dalle impostazioni di NVDA nella
+Puoi attivare o disattivare i punti di riferimento andando nel menu di NVDA
+-> preferenze->  Enhanced Aria Settings, o dalle impostazioni di NVDA nella
 relativa categoria. Nella finestra esiste una casella di controllo per
-ciascun punto di riferimento. Se se ne disattiva uno di questi, non sarà più
-possibile utilizzare il tasto "D" per raggiungerlo e NVDA non lo leggerà più
-come tale.
+ciascun punto di riferimento. Se si disattiva uno di questi, non sarà
+possibile utilizzare il tasto "D" per raggiungerlo quando si naviga in una
+pagina web e NVDA non lo leggerà più come tale.
 
 ## Informazioni di contatto
 
@@ -35,10 +37,10 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ## Cambiamenti
 
-### Version 2.8
+### Versione 2.8
 
 * Traduzioni nuove e aggiornate
-* Updated NVDA compatibility flags.
+* Aggiunti i flag di compatibilità di NVDA.
 
 ### Versione 2.7
 
@@ -48,7 +50,7 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 ### Versione 2.6
 
 * Aggiunta la compatibilità con le recenti versioni di NVDA. Questa versione
-  risulta compatibile a partire da NVDA 2017.4 in poi
+  è compatibile solo con NVDA 2017.4 o superiori.
 * Traduzioni nuove e aggiornate
 * Ora, la configurazione viene automaticamente applicata dopo aver cambiato
   i profili NVDA e ripristinato le impostazioni predefinite di fabbrica.
@@ -71,18 +73,18 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ### Versione 2.2
 
-* Fixed a fatal error when a Braille display was used and the article role
-  was configured to be reported.
+* Corretto un errore critico che si verificava quando veniva utilizzato un
+  display Braille e la lettura del ruolo "articolo" era attivata.
 
 ### Versione 2.1
 
-* Stability improvements
+* Miglioramenti alla stabilità 
 
 ### Versione 2.0
 
-* Aggiunto il supporto alle impostazioni multiCategoria disponibili da NVDA
-  2018.2 e successive
-* aggiunta compatibilità a Python 3
+* Aggiunto il supporto per la finestra impostazioni multiCategoria,
+  disponibile da NVDA 2018.2 e successive
+* Aggiunta compatibilità con Python 3
 * Viene ora usato il modulo guiHelper per creare l'interfaccia utente del
   componente
 
@@ -92,12 +94,12 @@ su GitHub su https://github.com/jmdaweb/enhancedAria
 
 ### Versione 1.2
 
-* Sistemati bug vari
+* Corretti bug vari
 
 ### Versione 1.1
 
-* Sistemato un bug che impediva l'apertura dell'interfaccia dell'addon, dopo
-  che la configurazione di NVDA è stata ripristinata.
+* Corretti bug che impedivano l'apertura della finestra impostazioni
+  dell'addon, dopo che la configurazione di NVDA è stata ripristinata
 
 [[!tag dev stable legacy]]
 
