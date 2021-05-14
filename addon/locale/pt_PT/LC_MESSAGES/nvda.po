@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MelhoramentosDoAria 2.2\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-30 05:15+1000\n"
 "PO-Revision-Date: 2018-11-29 23:05+0000\n"
 "Language: pt_PT\n"
