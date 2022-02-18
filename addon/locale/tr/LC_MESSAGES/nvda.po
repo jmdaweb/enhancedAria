@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enhancedAria package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancedAria 2.8\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2021-02-19 05:10+0000\n"
+"PO-Revision-Date: 2022-02-12 21:17+0300\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Burak Yüksek <burakyuksek94@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. TRANSLATORS: Settings dialog and/or panel title
+msgid "Enhanced Aria settings"
+msgstr "Geliştirilmiş Aria ayarları"
+
+#. TRANSLATORS: An article element inside a document
+msgid "article"
+msgstr "Makale"
+
+#. TRANSLATORS: Braille abbreviation for an article element inside a document
+msgid "art"
+msgstr "mak"
+
+#. TRANSLATORS: report banners checkbox
+msgid "Report banners"
+msgstr "Benırları seslendir"
+
+#. TRANSLATORS: report main content checkbox
+msgid "Report main content"
+msgstr "Ana içeriği seslendir"
+
+#. TRANSLATORS: report search forms checkbox
+msgid "Report search forms"
+msgstr "Arama formlarını seslendir"
+
+#. TRANSLATORS: report forms with form role checkbox
+msgid "Report forms with form role"
+msgstr "Form rolü olan formları seslendir"
+
+#. TRANSLATORS: report navigation areas checkbox
+msgid "Report navigation areas"
+msgstr "Dolaşım Arialarını seslendir"
+
+#. TRANSLATORS: report complementary content checkbox
+msgid "Report complementary content"
+msgstr "Tamamlayıcı içeriği seslendir"
+
+#. TRANSLATORS: report content info checkbox
+msgid "Report content info areas"
+msgstr "İçerik bilgi Arialarını seslendir"
+
+#. TRANSLATORS: report articles checkbox
+msgid "Report articles"
+msgstr "Makaleleri seslendir"
+
+#. TRANSLATORS: report other labelled regions checkbox
+msgid "Report other labelled regions"
+msgstr "Diğer etiketlenen bölgeleri seslendir"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Enhanced aria settings..."
+msgstr "Geliştirilmiş aria ayarları..."
+
+msgid "Change enhanced Aria settings"
+msgstr "Geliştirilmiş aria ayarlarını değiştir"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+msgid "Enhanced Aria"
+msgstr "Geliştirilmiş Aria"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+" This addon allows you to specify which Aria landmarks will be spoken when "
+"browsing a website.\n"
+"It has support for extra aria landmarks which are not included by default in "
+"NVDA."
+msgstr ""
+" Bu eklenti, web sitesinde gezinirken NVDA'nın hangi Aria yer imlerini "
+"seslendireceğini belirlemenizi sağlar.\n"
+"Varsayılan olarak NVDA'da bulunmayan Aria yer imlerini destekler."
